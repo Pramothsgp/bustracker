@@ -8,6 +8,7 @@ export default function RootLayout() {
     <AuthProvider>
       <StatusBar style="dark" />
       <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="index" />
         <Stack.Screen name="(auth)" />
         <Stack.Screen name="(user)" />
         <Stack.Screen name="(driver)" />

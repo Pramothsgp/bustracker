@@ -4,7 +4,7 @@ import {
   BUS_STATUSES,
   USER_ROLES,
   TRIP_STATUSES,
-} from "../constants.js";
+} from "../constants";
 
 // ── Auth ──
 export const MagicLinkRequestSchema = z.object({

@@ -26,7 +26,7 @@ let flushInterval: NodeJS.Timeout | null = null;
 export function createSocketServer(httpServer: HttpServer) {
   const io = new Server(httpServer, {
     cors: {
-      origin: env.CORS_ORIGIN.split(","),
+      origin: env.CORS_ORIGIN === "*" ? true : env.CORS_ORIGIN.split(","),
       methods: ["GET", "POST"],
     },
   });

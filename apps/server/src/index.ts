@@ -20,7 +20,9 @@ const app = express();
 const httpServer = createServer(app);
 
 // Middleware
-app.use(cors({ origin: env.CORS_ORIGIN.split(",") }));
+app.use(cors({
+  origin: env.CORS_ORIGIN === "*" ? true : env.CORS_ORIGIN.split(","),
+}));
 app.use(express.json());
 
 // Socket.IO

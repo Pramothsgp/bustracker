@@ -1,25 +1,24 @@
-import { Redirect } from "expo-router";
+import { useEffect } from "react";
+import { router } from "expo-router";
 import { useAuth } from "@/lib/auth-context";
 import { View, ActivityIndicator } from "react-native";
 
 export default function Index() {
   const { user, loading } = useAuth();
 
-  if (loading) {
-    return (
-      <View className="flex-1 items-center justify-center bg-white">
-        <ActivityIndicator size="large" color="#1d4ed8" />
-      </View>
-    );
-  }
+  useEffect(() => {
+    if (loading) return;
 
-  if (!user) {
-    return <Redirect href="/(user)/(tabs)/map" />;
-  }
+    if (user?.role === "driver") {
+      router.replace("/(driver)/dashboard");
+    } else {
+      router.replace("/(user)/(tabs)/map");
+    }
+  }, [user, loading]);
 
-  if (user.role === "driver") {
-    return <Redirect href="/(driver)/dashboard" />;
-  }
-
-  return <Redirect href="/(user)/(tabs)/map" />;
+  return (
+    <View className="flex-1 items-center justify-center bg-white">
+      <ActivityIndicator size="large" color="#1d4ed8" />
+    </View>
+  );
 }

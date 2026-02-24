@@ -1,6 +1,8 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 import { View, Text, TouchableOpacity, Alert } from "react-native";
-import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
+import MapView, { Marker, MapAvailable, PROVIDER_GOOGLE } from "@/components/SafeMapView";
+import LeafletMap from "@/components/LeafletMap";
+import type { LeafletMarker } from "@/components/LeafletMap";
 import { router, useLocalSearchParams } from "expo-router";
 import * as Location from "expo-location";
 import { api } from "@/lib/api";
@@ -93,28 +95,50 @@ export default function ActiveTripScreen() {
     return `${h.toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
   };
 
+  const initialRegion = {
+    latitude: location?.lat ?? COIMBATORE_CENTER.lat,
+    longitude: location?.lng ?? COIMBATORE_CENTER.lng,
+    latitudeDelta: 0.02,
+    longitudeDelta: 0.02,
+  };
+
+  const leafletMarkers = useMemo<LeafletMarker[]>(() => {
+    if (!location) return [];
+    return [{
+      id: "driver",
+      lat: location.lat,
+      lng: location.lng,
+      title: "Your Bus",
+      color: "#1d4ed8",
+    }];
+  }, [location]);
+
   return (
     <View className="flex-1 bg-white">
-      <MapView
-        className="flex-1"
-        provider={PROVIDER_GOOGLE}
-        initialRegion={{
-          latitude: location?.lat ?? COIMBATORE_CENTER.lat,
-          longitude: location?.lng ?? COIMBATORE_CENTER.lng,
-          latitudeDelta: 0.02,
-          longitudeDelta: 0.02,
-        }}
-        showsUserLocation
-        followsUserLocation
-      >
-        {location && (
-          <Marker
-            coordinate={{ latitude: location.lat, longitude: location.lng }}
-            title="Your Bus"
-            pinColor="#1d4ed8"
-          />
-        )}
-      </MapView>
+      {MapAvailable ? (
+        <MapView
+          className="flex-1"
+          provider={PROVIDER_GOOGLE}
+          initialRegion={initialRegion}
+          showsUserLocation
+          followsUserLocation
+        >
+          {location && (
+            <Marker
+              coordinate={{ latitude: location.lat, longitude: location.lng }}
+              title="Your Bus"
+              pinColor="#1d4ed8"
+            />
+          )}
+        </MapView>
+      ) : (
+        <LeafletMap
+          style={{ flex: 1 }}
+          initialRegion={initialRegion}
+          markers={leafletMarkers}
+          showsUserLocation
+        />
+      )}
 
       <View className="border-t border-gray-200 bg-white p-4">
         <View className="mb-4 flex-row items-center justify-between">

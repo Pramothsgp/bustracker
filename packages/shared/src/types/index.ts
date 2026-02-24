@@ -7,8 +7,8 @@ import type {
   StartTripSchema,
   NearbyBusesSchema,
   PaginationSchema,
-} from "../schemas/index.js";
-import type { BusType, BusStatus, UserRole, TripStatus } from "../constants.js";
+} from "../schemas/index";
+import type { BusType, BusStatus, UserRole, TripStatus } from "../constants";
 
 export type CreateBusInput = z.infer<typeof CreateBusSchema>;
 export type UpdateBusInput = z.infer<typeof UpdateBusSchema>;
