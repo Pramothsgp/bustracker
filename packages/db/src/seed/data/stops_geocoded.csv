@@ -1,0 +1,285 @@
+stop_id,stop_name,lat,lng
+1,gandhipuram town bs,11.0182714,76.9677744
+2,park gate,11.0069198,76.9709294
+3,v.o.c. park,,
+4,c.s.i. school,,
+5,c.s.i. immanuel church,,
+6,d.s.p. office,,
+7,collector office,11.0001959,76.9668761
+8,railway station,10.9962311,76.9681435
+9,town hall,10.9938921,76.9632512
+10,ukkadam,10.9895218,76.9561068
+11,karumbukadai,,
+12,athupalam,,
+13,kuniyamuthur high school,10.9560206,76.9540742
+14,kuniyamuthur,10.9641042,76.9562562
+15,nehru college,10.8711501,76.9273045
+16,edayarpalayam pirivu,10.9520099,76.9535331
+17,kuniyamuthur police station,,
+18,b.k. pudur,11.0157437,76.9842202
+19,kovaipudur pirivu,10.9454149,76.9392603
+20,milekal,,
+21,gandhi nagar,11.0609170,76.9720995
+22,madukkarai police station,10.9114530,76.9490401
+23,madukkarai union office,10.9006591,76.9424838
+24,marappalam,,
+25,chettipalayam pirivu,10.9138283,77.0374703
+26,indian bank,11.0113377,76.9654687
+27,thirumalayampalayam pirivu,,
+28,k.g. chavadi,10.9602068,76.9681906
+29,kumittipathi bs,,
+30,singanallur,11.0028585,77.0234948
+31,uzhavar sandhai,11.0143296,76.9444254
+32,boat house,10.9982630,77.0195906
+33,children hospital,10.9958251,76.9634777
+34,rajalakshmi mill,11.0044176,76.9503459
+35,central studios,10.9974486,77.0105115
+36,andal marriage hall / iyer hospital,11.0207457,76.9706011
+37,alvernia school,10.9981189,77.0028896
+38,sowripalayam pirivu,10.9972686,76.9994240
+39,ramanathapuram,10.9947773,76.9921300
+40,olympus,,
+41,chinthamani,10.9921915,76.9476130
+42,sungam,10.9982119,76.9841987
+43,air india,10.9264921,76.9245644
+44,rainbow,10.9959705,76.9788605
+45,saint francis anglo indian girls high school,,
+46,government hospital,10.9559430,76.9241781
+47,prakasam,10.9930561,76.9596779
+48,oppanakara street bus stop,10.9968852,76.9589910
+49,sukrawarpet,,
+50,mahali amman koil / flower market,11.0060914,76.9554946
+51,poomarket,,
+52,navratna hotel,,
+53,north coimbatore,11.0160188,76.9543080
+54,t.v.s.,10.9882006,76.9373804
+55,murugan mills,11.0248290,76.9512304
+56,saibaba kovil,,
+57,ooty new,10.9457911,76.9377565
+58,eru company,11.0340517,76.9507666
+59,housing unit,11.0401716,76.9484153
+60,kavundampalayam,11.0452035,76.9474306
+61,cheran nagar,11.0519652,76.9460784
+62,i.t.i.,,
+63,g.n. mills,,
+64,vellakinar pirivu,11.0643219,76.9436755
+65,venugopal hospital,,
+66,viswanathapuram,11.0745920,76.9419506
+67,thudiyalur,11.0805532,76.9421498
+68,ulavar sandhai,,
+69,vadamadurai,11.0844504,76.9390795
+70,v.s.k. nagar,,
+71,palanigoundanpudhur,,
+72,gowtham nagar,,
+73,pannimadai main,11.0856589,76.9164154
+74,pannimadai,11.0856589,76.9164154
+75,dhaliyur,,
+76,avinashilingam university,11.0202445,76.9526709
+77,pappanaickenpalayam,,
+78,varappalayam,,
+79,ramanathapuram village,10.9947773,76.9921300
+80,madathur,,
+81,madathur puthur,,
+82,nanjundapuram,10.9766213,76.9951886
+83,chinna thadagam,11.0815806,76.8652221
+84,raja street,10.9947488,76.9619720
+85,five corner,10.9953549,76.9607290
+86,manikoondu / town hall,10.9942386,76.9631793
+87,vasantha mill,11.0029543,77.0359286
+88,shanthi gears,11.0077942,77.0885704
+89,jai sai shanthi,,
+90,saint joseph school,,
+91,saint joseph matriculation secondary school,,
+92,ondipudur,11.0053032,77.0627627
+93,sri hari mills,11.1022191,76.9657051
+94,kamatchipuram,,
+95,kadri mills high school,11.0058181,77.0664118
+96,karthik mills,11.0387960,76.9260250
+97,krishna priya thirumana mandapam,10.9371249,76.9564045
+98,l & t bypass,10.8803795,77.0215103
+99,saraswathi hospital,11.0069868,77.0713680
+100,kannampalayam pirivu,10.9950941,77.0984553
+101,cindhamanipudur,,
+102,pappampatti pirivu,,
+103,selvapuram,10.9871756,76.9392029
+104,ravathur pirivu,11.0202479,77.0808407
+105,r.v.s. institute,11.0107389,77.0677745
+106,narasimha textiles,10.9948602,76.9937206
+107,ranganathapuram,,
+108,sulur police station,,
+109,sulur g.h.,,
+110,sulur,,
+111,market cut / cinema theatre,10.9888654,76.9590993
+112,r.v.s. arts college,11.0348655,77.0338857
+113,kongu kalyana mandapam,11.0180648,76.9605535
+114,r.t.o. office,11.0327810,77.0269922
+115,kangayampalayam,,
+116,airforce sulpur,11.0056653,76.9860942
+117,kendriya vidyalaya sulur,11.0096160,76.9984980
+118,rayapuram,,
+119,karanampettai,10.9995624,77.0248605
+120,kodangipalayam,,
+121,sihs colony,,
+122,mahalakshmi bakery,11.0601313,77.0176224
+123,chetty street,11.0123184,76.9475823
+124,high school,10.9963021,76.9941564
+125,muthusawamy colony,,
+126,l.i.c. colony,,
+127,telungupalayam hospital,10.9840631,76.9253406
+128,telungupalayam pirivu,10.9840631,76.9253406
+129,tamil college,11.0393567,77.0362302
+130,perur,10.9756906,76.9153755
+131,perur chettipalayam,10.9138283,77.0374703
+132,postal colony,,
+133,arumuga goundanur,,
+134,ramachettipalayam,,
+135,sundakkamuthur,,
+136,anbu nagar,10.9573072,77.0082198
+137,ashram school,10.9476827,76.9304674
+138,anna nagar,11.0344506,76.9176916
+139,om shakthi nagar,11.0028200,76.9889960
+140,mohan corner,,
+141,kovaipudur,10.9454149,76.9392603
+142,puliyamaram,11.0269254,76.9481260
+143,saibaba colony,11.0243340,76.9447875
+144,sri valli theatre / annapoorna,11.1022191,76.9657051
+145,p & t,11.0238177,76.9374813
+146,venkitapuram,11.0252509,76.9354218
+147,velandipalayam,11.0290235,76.9320960
+148,kovil medu,11.0286991,77.0040385
+149,shivaji colony,,
+150,edayarpalayam,11.0498400,76.9188620
+151,t.v.s. nagar,10.9882006,76.9373804
+152,luna,,
+153,k.n.g. pudur pirivu,11.0533111,76.9199558
+154,autoprint,,
+155,keartiman matriculation higher secondary school,,
+156,kanuvai,11.0653183,76.9085377
+157,vasanth & company,,
+158,karpagam complex,11.0193898,76.9637132
+159,kalyan sarees,11.0202716,76.9670940
+160,g.p. hospital,11.0457720,76.9229100
+161,gandhipuram town,11.0182714,76.9677744
+162,kurumbapalayam,11.1132597,77.0284746
+163,e.s.i. hospital,10.9972925,76.9981253
+164,varadharajapuram,,
+165,ukkadam bs,10.9885987,76.9616680
+166,a.b.c. agro and food machine factory,,
+167,nayakar thottam,,
+168,gundu perumal temple,,
+169,thiruvalluvar nagar,11.0288507,76.8955997
+170,somayanur,11.0724236,76.8899000
+171,kalayanur,,
+172,thanneer pandal,,
+173,rangaswamy gowder garden,,
+174,chinna thadagam government boys school,11.0815806,76.8652221
+175,mariamman temple,,
+176,vrindavan nagar,,
+177,veerapandi,,
+178,primary hospital,11.0097052,76.9363209
+179,veerapandi bs,,
+180,government higher secondary school,10.9531117,76.9215713
+181,kurichi pirivu,10.9660449,76.9636929
+182,kurichi pirivu housing unit,,
+183,iyer hospital,11.0207457,76.9706011
+184,sundarapuram,10.9521673,76.9758815
+185,sidco,10.9379091,76.9660872
+186,k.p.m. matriculation school,11.0258012,76.9701584
+187,rathinam college,10.9346185,76.9786341
+188,eachanari,10.9239252,76.9824504
+189,karpagam university,10.8826914,77.0122716
+190,ganesh nagar,11.0172902,76.9226414
+191,malumichampatti junction,10.9371931,76.9996318
+192,malumichampatti,10.9371931,76.9996318
+193,hindustan college,11.0126075,76.9931112
+194,othakal mandapam,,
+195,womens polytechnic,10.9933077,76.9630455
+196,r.t.o.,11.0093260,76.9751453
+197,stanes higher secondary school,11.0063593,76.9724885
+198,anna statue,11.0163056,76.9703426
+199,karpagam medical college & hospital,10.8855835,77.0080038
+200,premier mills,11.0432759,77.0384269
+201,ckit institute,,
+202,polytechnic college,11.0159476,76.9758650
+203,vivek vidyalaya matric higher secondary school,10.9690480,77.0029808
+204,v.s.b. college of engineering,10.8923726,76.9931964
+205,mailrapalayam,,
+206,arasampalayam,,
+207,gandhi park corporation complex,11.0006669,76.9497713
+208,r.s. puram boys higher secondary school,10.9968977,76.9648158
+209,shri nehru vidyalaya,10.9641976,76.9556374
+210,lawley road,11.0136038,76.9417304
+211,government college of technology,11.0196162,76.9365414
+212,vel international public school,,
+213,kasi nanjegoundan pudur,11.0089639,76.9345375
+214,v.k.r. nagar,,
+215,subramaniam palayam,11.0060644,76.9546940
+216,cheran colony,11.0520411,76.9453350
+217,pachapalayam junction,11.1254450,77.0926320
+218,kalampalayam,10.9708666,76.8945654
+219,thuruthipallam,,
+220,chellappa goundan puthur,11.0081156,76.9632956
+221,madampatti,,
+222,indira nagar,11.0465015,77.0443976
+223,sennanur thanneer pandal,,
+224,spic,,
+225,chithrai chavadi,,
+226,pooluvapatti,,
+227,srinivasapuram,,
+228,alandurai high school,,
+229,aalandurai,,
+230,oriental insurance,10.9925321,76.9574812
+231,lakshmipuram,11.0258012,76.9701584
+232,tex tool / velan theatre,11.0453382,77.0343417
+233,ganapathy,11.0365596,76.9692573
+234,surya hospital,11.0390101,76.9795170
+235,c.m.s. school,,
+236,athipalayam junction,11.1291418,76.9807251
+237,bharathi nagar,11.0471906,76.9890493
+238,ramakrishna mill,11.1022191,76.9657051
+239,l.g.b. nagar,,
+240,sivanandha mills,11.0606146,77.0081128
+241,marakadai,,
+242,k.p.r. mill,,
+243,gknm hospital,,
+244,lakshmi mills,11.0135433,76.9865933
+245,nava india,,
+246,suguna kalyana mandapam bus stop,11.0094291,76.9813119
+247,p.s.g. tech / peelamedu,11.0269577,76.9945813
+248,krishnamal college,,
+249,fun mall,11.0243517,77.0106613
+250,varatharaja mills,,
+251,hope college,11.0257673,77.0166097
+252,c.i.t.,,
+253,codissia,11.0304846,77.0281885
+254,arvind eye hospital,11.0153158,76.9539881
+255,sitra airport,11.0368750,77.0362113
+256,nehru nagar,,
+257,periyar nagar,11.0171544,76.9688689
+258,n.g.p. college,11.0609992,77.0337770
+259,kmch college of pharmacy,11.0404121,77.0408824
+260,lakshmi technology,11.0122576,76.9881902
+261,kalapatti,11.0787684,77.0370419
+262,vanthavalam,,
+263,singanallur police station,11.0028585,77.0234948
+264,tamilnadu agricultural university main gate,11.0431074,76.8636149
+265,botanical garden,11.0168659,76.9318532
+266,mullai nagar,11.1024728,77.0214252
+267,vadavalli,11.0253387,76.9051251
+268,poosaripalayam,11.0474698,76.9712356
+269,panaimarathoor,,
+270,moongathur,,
+271,veerakeralam,,
+272,nagarajapuram main,,
+273,nambialaganpalayam,,
+274,p.s.g. high school vedapatti,10.9617126,76.9693114
+275,sethu vidyalaya,,
+276,sundapalayam,,
+277,onapalayam,,
+278,uliyampaalayam,,
+279,deenampalayam,11.0022870,76.8579081
+280,pudhupalayam,,
+281,kulathupalayam,,
+282,thondamuthur 2,11.0007686,76.8876751
+283,thondamuthur,11.0007686,76.8876751
+284,vandikaranur pirivu more,,

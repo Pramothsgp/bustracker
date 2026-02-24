@@ -1,0 +1,3910 @@
+[
+  {
+    "type": "node",
+    "id": 244510893,
+    "lat": 11.0597627,
+    "lon": 76.9446459,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Gounder Mills Bus Stop",
+      "name:ta": "கௌண்டர் மில்ஸ் பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 246761179,
+    "lat": 11.0401065,
+    "lon": 76.9491122,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Housing Unit",
+      "name:ta": "வீட்டு வசதி குடியிருப்பு பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 247051479,
+    "lat": 11.0339729,
+    "lon": 76.9506762,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Fertilizer company( yaeru company) bus stop",
+      "name:ta": "எரு கம்பெனி பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 247177661,
+    "lat": 11.0519652,
+    "lon": 76.9460784,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Cheran Nagar",
+      "name:ta": "சேரன் நகர் பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 247177666,
+    "lat": 11.0551818,
+    "lon": 76.9456277,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "ITI busstop",
+      "public_transport": "stop_position",
+      "tactile_paving": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 247177667,
+    "lat": 11.0643219,
+    "lon": 76.9436755,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Vellakinar Pirivu",
+      "name:ta": "வெள்ளக்கிணர் பிரிவு பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 247177668,
+    "lat": 11.0705557,
+    "lon": 76.9424133,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "VG Hospital Bus stop",
+      "name:ta": "வி.ஜி.மருத்துவமனை பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 247177695,
+    "lat": 11.0900068,
+    "lon": 76.938591,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "NGGO Colony Busstop",
+      "name:ta": "NGGO காலனி பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position",
+      "shelter": "no",
+      "tactile_paving": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 247680603,
+    "lat": 11.0037997,
+    "lon": 77.0465492,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 282839659,
+    "lat": 11.0242008,
+    "lon": 76.9783476,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Ramakrishna Hospital BusStop",
+      "name:ta": "ராமகிருஷ்ணா மருத்துவமனை பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 282839766,
+    "lat": 11.0285064,
+    "lon": 76.9806936,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "RailwayGate BusStop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 282842135,
+    "lat": 11.029187,
+    "lon": 76.9854035,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Avarampalayam Bus Stand",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 282842885,
+    "lat": 11.0202939,
+    "lon": 76.9925083,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "NavaIndia Bus Stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 282842908,
+    "lat": 11.0219214,
+    "lon": 76.9964075,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "ESSO Bunk Bus Stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 308446256,
+    "lat": 11.0145677,
+    "lon": 77.0236046,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 308449922,
+    "lat": 11.0969825,
+    "lon": 77.1552844,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 308449998,
+    "lat": 11.1039504,
+    "lon": 77.170774,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 308453275,
+    "lat": 11.1033642,
+    "lon": 76.9381294,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "CRPF bus stop",
+      "public_transport": "stop_position",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 308453278,
+    "lat": 11.1524702,
+    "lon": 76.9444695,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Periyanaickenpalayam Stop",
+      "name:ta": "பெரியநாயக்கன்பாளயம்",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 321420713,
+    "lat": 11.1354175,
+    "lon": 77.0337521,
+    "tags": {
+      "amenity": "bus_station",
+      "name": "Kovilpalayam Main Bus Stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 354835103,
+    "lat": 11.0219281,
+    "lon": 77.1029363,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "RVS College of Engineering and Technology Bus Stop",
+      "name:ta": "ஆர் எம் எஸ் பொறியியல் மற்றும் தொழில்நுட்பக் கல்லூரி பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 472267691,
+    "lat": 10.9984945,
+    "lon": 77.0194553,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 472267694,
+    "lat": 10.9974486,
+    "lon": 77.0105115,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Central Studios",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 472267851,
+    "lat": 11.0240369,
+    "lon": 76.9590611,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Sivananda Colony",
+      "name:ta": "சிவானந்த காலனி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 729614792,
+    "lat": 11.0407992,
+    "lon": 76.9826263,
+    "tags": {
+      "bench": "yes",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "CMS Bus Stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 729615178,
+    "lat": 11.0135433,
+    "lon": 76.9865933,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Lakshmi Mills",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 802101797,
+    "lat": 10.9664304,
+    "lon": 76.827085,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 802391599,
+    "lat": 10.9942386,
+    "lon": 76.9631793,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Manikoondu",
+      "name:ta": "மணிக்கூண்டு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 802391603,
+    "lat": 10.9938921,
+    "lon": 76.9632512,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Town Hall",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 803271929,
+    "lat": 10.9962311,
+    "lon": 76.9681435,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Coimbatore Railway Station",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 803272045,
+    "lat": 10.9962357,
+    "lon": 76.9679417,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Coimbatore Railway Station",
+      "public_transport": "platform",
+      "wikidata": "Q3532594",
+      "wikipedia": "en:Coimbatore Junction railway station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832770142,
+    "lat": 11.0169309,
+    "lon": 76.9591371,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Power House",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832782163,
+    "lat": 11.0193898,
+    "lon": 76.9637132,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Karpakam Complex",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 942747396,
+    "lat": 11.0360968,
+    "lon": 76.9780017,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Ganapathy Bus Stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1037065112,
+    "lat": 11.0141241,
+    "lon": 76.9872939,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1037072497,
+    "lat": 11.0408621,
+    "lon": 76.9823064,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "CMS Bus Stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1039511705,
+    "lat": 11.0354069,
+    "lon": 76.9782625,
+    "tags": {
+      "bench": "no",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Ganapathi Bus Stop",
+      "public_transport": "platform",
+      "shelter": "no",
+      "tactile_paving": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1039707362,
+    "lat": 11.0134774,
+    "lon": 76.985554,
+    "tags": {
+      "bench": "yes",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Lakshmi Mills Bus Stop",
+      "public_transport": "platform",
+      "shelter": "yes",
+      "tactile_paving": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1042222205,
+    "lat": 11.0141675,
+    "lon": 76.9812123,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Manis School Bus Stop",
+      "name:ta": "மணி மேனிலைப்பள்ளி பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1042222216,
+    "lat": 11.0140823,
+    "lon": 76.9812465,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Manis School Bus Stop",
+      "name:ta": "மணி மேனிலைப்பள்ளி பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1042240113,
+    "lat": 10.977915,
+    "lon": 76.9603847,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Karumbu Kadai",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1150945192,
+    "lat": 11.0551262,
+    "lon": 77.0655148,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Chinniampalayam",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1161722780,
+    "lat": 11.0259441,
+    "lon": 77.1252174,
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "Sulur Bus Stand",
+      "name:ta": "சூலூர் பேருந்து நிலையம்",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1423908432,
+    "lat": 11.0463232,
+    "lon": 76.8527995,
+    "tags": {
+      "access": "permit",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "maruthamlai",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1467928830,
+    "lat": 10.9978662,
+    "lon": 76.9919497,
+    "tags": {
+      "bench": "yes",
+      "bin": "no",
+      "bus": "yes",
+      "designation": "Bus stop",
+      "highway": "bus_stop",
+      "name": "Olumpus",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1467928840,
+    "lat": 10.9979392,
+    "lon": 76.9862334,
+    "tags": {
+      "bus": "yes",
+      "designation": "Bus stop",
+      "highway": "bus_stop",
+      "name": "Chintamani",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1467928844,
+    "lat": 10.9959705,
+    "lon": 76.9788605,
+    "tags": {
+      "bus": "yes",
+      "designation": "Bus stop",
+      "highway": "bus_stop",
+      "name": "Rainbow",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1467928848,
+    "lat": 10.9981716,
+    "lon": 76.9899112,
+    "tags": {
+      "bench": "yes",
+      "bin": "no",
+      "bus": "yes",
+      "designation": "Bus stop",
+      "highway": "bus_stop",
+      "name": "Tax office bus stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468078964,
+    "lat": 11.0136038,
+    "lon": 76.9417304,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Lawley road",
+      "name": "Lawley road",
+      "name:ta": "லாலி சாலை",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468078975,
+    "lat": 11.0199117,
+    "lon": 76.9383552,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "GCT College",
+      "name": "GCT College",
+      "name:ta": "ஜிஸிடி நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079235,
+    "lat": 11.0277717,
+    "lon": 76.9511768,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து நிறுத்தம்",
+      "local_ref": "Saibaba Kovil Stop",
+      "name": "Saibaba temple bus stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079244,
+    "lat": 11.024829,
+    "lon": 76.9512304,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "local_ref": "Murugan mill bus stop",
+      "name": "Murugan Mills Bus Stop",
+      "name:ta": "முருகன் மில் பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079248,
+    "lat": 11.0074453,
+    "lon": 76.9450464,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Pal Company stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079250,
+    "lat": 11.0284039,
+    "lon": 76.9515424,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Saibaba Koyil Bus Stop",
+      "name": "saibaba temple bus stop",
+      "name:ta": "சாய்பாபா கோயில் பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079293,
+    "lat": 11.0269254,
+    "lon": 76.948126,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Puliyamaram bus stop",
+      "name:ta": "புளியமரம் பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079362,
+    "lat": 11.0255492,
+    "lon": 76.9514297,
+    "tags": {
+      "alt_name": "ganga hospital bus stop",
+      "bin": "no",
+      "bus": "yes",
+      "covered": "yes",
+      "highway": "bus_stop",
+      "level": "0",
+      "local_ref": "Saibaba Kovil Bus Stop",
+      "name": "saibaba temple bus stop",
+      "name:ta": "சாய்பாபா கோயில் பேருந்து நிறுத்தம்",
+      "public_transport": "platform",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079389,
+    "lat": 11.0307453,
+    "lon": 76.9509477,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "local_ref": "New bus stand",
+      "name": "New bus stand bus stop",
+      "name:ta": "புதிய பேருந்து நிலையம் பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079440,
+    "lat": 11.0237135,
+    "lon": 76.9513339,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Avinasilingam university",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468079521,
+    "lat": 11.022929,
+    "lon": 76.9518436,
+    "tags": {
+      "addr:city": "coimbatore",
+      "addr:city:ta": "கோயம்புத்தூர்",
+      "addr:country": "IN",
+      "addr:country:ta": "இந்தியா",
+      "addr:district": "coimbatore",
+      "addr:district:ta": "கோயம்புத்தூர்",
+      "addr:street": "Mettupalayam Road",
+      "addr:street:ta": "மேட்டுப்பாளயம் சாலை",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து நிலையம்",
+      "local_ref": "Avinasilingam university",
+      "name:ta": "அவினாசிலிங்கம் பழ்கலைக்கழகம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468093950,
+    "lat": 11.0002287,
+    "lon": 76.9493357,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Gandhi park bus stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468093952,
+    "lat": 11.0231843,
+    "lon": 76.9463289,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Nesavalar Colony",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468093966,
+    "lat": 11.0155077,
+    "lon": 76.9546075,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Vadakovai",
+      "name": "Vadakovai",
+      "name:ta": "வடகோவை",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468093968,
+    "lat": 11.0261725,
+    "lon": 76.9424022,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Srivalli bus stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468104950,
+    "lat": 11.0135984,
+    "lon": 76.9354338,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Agri Main gate",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468105003,
+    "lat": 11.039362,
+    "lon": 76.9257832,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Idayarpalayam",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1468105213,
+    "lat": 11.0760314,
+    "lon": 76.9553251,
+    "tags": {
+      "highway": "bus_stop",
+      "local_ref": "VellaKinar",
+      "public_transport": "stop_position",
+      "wikidata": "Q2540565",
+      "wikipedia": "en:Vellakinar"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1469154223,
+    "lat": 11.0754987,
+    "lon": 76.9584682,
+    "tags": {
+      "highway": "bus_stop",
+      "local_ref": "Rice Mills Stop",
+      "name": "Rice Mills Stop",
+      "public_transport": "stop_position",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1469161500,
+    "lat": 11.1492031,
+    "lon": 76.9442272,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Lakshmi Machine Works",
+      "name": "LMW Stop",
+      "name:ta": "எல் எம் டபிள்யு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1470929871,
+    "lat": 11.1699053,
+    "lon": 76.9519482,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "Veerapandi Pirivu",
+      "name:ta": "வீரபாண்டி பிரிவு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1470938018,
+    "lat": 11.1609251,
+    "lon": 76.9462351,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Vanaan Kovil",
+      "name:ta": "வண்ணான் கோயில்",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1473814193,
+    "lat": 11.0089396,
+    "lon": 76.9671695,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1473814197,
+    "lat": 11.0061461,
+    "lon": 76.9664104,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1473814211,
+    "lat": 11.010206,
+    "lon": 76.9670675,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474350113,
+    "lat": 11.075279,
+    "lon": 77.0019896,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Kalapatti Pirivu",
+      "name:ta": "காளப்பட்டி பிரிவு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474355751,
+    "lat": 11.0676638,
+    "lon": 77.00159,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "Amman Kovil Stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474362556,
+    "lat": 11.0616147,
+    "lon": 76.9984464,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "SRP Mills"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474369397,
+    "lat": 11.0538675,
+    "lon": 76.9940905,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "LGB Nagar",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474451347,
+    "lat": 11.0004858,
+    "lon": 76.9674362,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Collectorate office",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474491000,
+    "lat": 10.9953157,
+    "lon": 76.9595665,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Bison Bus Stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474491015,
+    "lat": 11.0018007,
+    "lon": 76.9686832,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "DSP",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474518424,
+    "lat": 11.0128376,
+    "lon": 76.9862409,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Lakshmi Mills",
+      "name:ta": "லக்ஷ்மி மில்ஸ் பேருந்து நிலையம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474518441,
+    "lat": 11.0003842,
+    "lon": 76.9948565,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Pankaja Mills",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474518447,
+    "lat": 10.9972136,
+    "lon": 76.9956643,
+    "tags": {
+      "bench": "yes",
+      "bin": "no",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Ramanathapuram",
+      "name:ja": "ラーマナータプラム",
+      "name:ta": "ராமநாதபுரம்",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474518456,
+    "lat": 11.009773,
+    "lon": 76.9898136,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Kidney centre",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474518457,
+    "lat": 10.9972686,
+    "lon": 76.999424,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "ipalayam Pirivu",
+      "name": "Sowripalayam Pirivu",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474803278,
+    "lat": 10.9921563,
+    "lon": 76.9598858,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Ganesh Medicals",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474803279,
+    "lat": 10.9930561,
+    "lon": 76.9596779,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Prakasam",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474818989,
+    "lat": 10.9967735,
+    "lon": 76.9589148,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1474872832,
+    "lat": 10.9982119,
+    "lon": 76.9841987,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Sungam bus depot",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1479494060,
+    "lat": 11.1812868,
+    "lon": 76.8339884,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Tholampalayam",
+      "name:ta": "தோலம்பாளையம்",
+      "public_transport": "stop_position",
+      "public_transport:version": "2"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1479494316,
+    "lat": 11.1878037,
+    "lon": 76.8089251,
+    "tags": {
+      "alt_name": "Athimathaiyanur Bus stop",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Adhimadhayanur",
+      "operator": "TNSTC",
+      "public_transport": "stop_position",
+      "public_transport:version": "2"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1481624917,
+    "lat": 11.0822886,
+    "lon": 77.1229935,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1680222663,
+    "lat": 10.9717888,
+    "lon": 76.957963,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1986777904,
+    "lat": 10.7760698,
+    "lon": 76.821204,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Menopara",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2064191603,
+    "lat": 11.0798567,
+    "lon": 76.9971637,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "KGISL bus stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2064191604,
+    "lat": 11.0811202,
+    "lon": 76.9904046,
+    "tags": {
+      "bench": "yes",
+      "bin": "no",
+      "highway": "bus_stop",
+      "local_ref": "KCT Bus stop",
+      "name": "KCT Bus Stop",
+      "name:ta": "கே சி டி பேருந்து நிறுத்தம்",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2158769811,
+    "lat": 10.8162702,
+    "lon": 76.861941,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "Velanthavalam Junction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2393640728,
+    "lat": 11.0515844,
+    "lon": 76.9927913,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "Ramakrishnapuram",
+      "name:ta": "ராமகிருஷ்ணாபுரம்",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2784881778,
+    "lat": 11.0971084,
+    "lon": 77.1552505,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3623163884,
+    "lat": 11.0267551,
+    "lon": 76.9058305,
+    "tags": {
+      "amenity": "bus_station",
+      "name": "Vadavalli Bus Stand",
+      "public_transport": "bus_station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4132442246,
+    "lat": 11.0037468,
+    "lon": 76.9814721,
+    "tags": {
+      "bench": "yes",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Racecourse Road Bus stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4198396074,
+    "lat": 11.0308078,
+    "lon": 76.9513976,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "new bus stand",
+      "name:ta": "புதிய பேருந்து நிலையம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4288600144,
+    "lat": 11.0134435,
+    "lon": 76.9318942,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Agri University Garden Gate Stop",
+      "name:ta": "வேளாண்மைப் பல்கலைக்கழகம் நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4329516290,
+    "lat": 11.0283773,
+    "lon": 76.9016377,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Aalamaram",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4405255790,
+    "lat": 11.0210849,
+    "lon": 76.9172148,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Mullainagar",
+      "name:ta": "முல்லை நகர்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4405321692,
+    "lat": 11.0790121,
+    "lon": 76.9551706,
+    "tags": {
+      "highway": "bus_stop",
+      "name:en": "TNHB Colony Phase 1",
+      "operator": "TNSTC",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4512804936,
+    "lat": 11.0702425,
+    "lon": 77.103665,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4527593390,
+    "lat": 11.1160667,
+    "lon": 77.0430875,
+    "tags": {
+      "amenity": "bus_station",
+      "name:en": "Pethanaickenpalayam"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4527612890,
+    "lat": 11.1164534,
+    "lon": 77.0480039,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "Nanjundapuram",
+      "name:en": "Nanjundapuram"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4528644790,
+    "lat": 11.1163482,
+    "lon": 77.0456865,
+    "tags": {
+      "highway": "bus_stop",
+      "name:en": "Nanjundapuram நஞ்சுண்டாபுரம் புதூர்",
+      "operator": "கள்ளிப்பாளையம் ஊராட்சி மன்ற அலுவலகம்"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4594346689,
+    "lat": 11.0071149,
+    "lon": 77.0109984,
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "ESI Bus Stop",
+      "name:ta": "சின்ன ஈ.எஸ்.ஐ பஸ் ஸ்டாப்",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4652723790,
+    "lat": 11.060917,
+    "lon": 76.9720995,
+    "tags": {
+      "highway": "bus_stop",
+      "name:en": "Gandhi Nagar",
+      "operator": "Udayampalayam, chinnavedampatti po"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4652739991,
+    "lat": 11.0477848,
+    "lon": 76.9685991,
+    "tags": {
+      "highway": "bus_stop",
+      "name:en": "Maniyakaram Palayam"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4700743589,
+    "lat": 11.1163335,
+    "lon": 77.0482202,
+    "tags": {
+      "amenity": "bus_station",
+      "name:en": "Nanjundapuram"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4711638799,
+    "lat": 11.007877,
+    "lon": 76.9506689,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name:en": "RS Puram",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4878935586,
+    "lat": 10.9576709,
+    "lon": 76.7572108,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4933611061,
+    "lat": 11.0242322,
+    "lon": 76.9516651,
+    "tags": {
+      "addr:city": "coimbatore",
+      "addr:city:ta": "கோயம்புத்தூர்",
+      "addr:district": "coimbatore",
+      "addr:district:ta": "கோயம்புத்தூர்",
+      "addr:street": "Mettupalayam Road",
+      "addr:street:ta": "மேட்டுப்பாளயம் சாலை",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து நிறுத்தம்",
+      "name": "Saibabakoil bus stop",
+      "name:ta": "சாய்பாபா கோயில் பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5274857422,
+    "lat": 10.7645192,
+    "lon": 76.9252171,
+    "tags": {
+      "highway": "bus_stop",
+      "name:en": "Zamin Kaliyapuram"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5300436246,
+    "lat": 10.9745543,
+    "lon": 76.9609809,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Aathuppaalam bus stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5300436247,
+    "lat": 10.9895655,
+    "lon": 76.9610949,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Ukkadam bus stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5300436248,
+    "lat": 11.0202445,
+    "lon": 76.9526709,
+    "tags": {
+      "alt_name": "TVS bus stop",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Avinashilingam University Bus Stop",
+      "name:ta": "அவினாசிலிங்கம் பல்கலைக்கழகம் பேருந்து நிறுத்தம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5300436329,
+    "lat": 10.9316109,
+    "lon": 76.9498468,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5300436331,
+    "lat": 10.962175,
+    "lon": 76.9545928,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "Kuniamuthur Bus Stop",
+      "name:ml": "കുനിയമുത്തൂർ ബസ് സ്റ്റോപ്പ്",
+      "name:ta": "குனியமுத்தூர் பேருந்து நிறுத்தம்"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5300436333,
+    "lat": 11.0160188,
+    "lon": 76.954308,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "North Coimbatore Bus Stop",
+      "name:ta": "வடகோவை பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5300436492,
+    "lat": 11.0025046,
+    "lon": 76.9558299,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Sukruvarpet bus stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5300436521,
+    "lat": 11.0060914,
+    "lon": 76.9554946,
+    "tags": {
+      "alt_name:ta": "மலர் அங்காடி பேருந்து நிறுத்தம்",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Flower Market bus stop",
+      "name:ta": "பூ மார்க்கெட் பேருந்து நிறுத்தம்",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325622722,
+    "lat": 11.019911,
+    "lon": 76.9706335,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325645821,
+    "lat": 11.0155588,
+    "lon": 76.9536315,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "vadakovai",
+      "name:ta": "வடகோவை",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325755047,
+    "lat": 11.0228288,
+    "lon": 77.0012155,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "psg tech",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325755528,
+    "lat": 11.0164133,
+    "lon": 76.97785,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325755529,
+    "lat": 11.0245496,
+    "lon": 77.0082025,
+    "tags": {
+      "alt_name": "கிருஷ்ணம்மாள் கல்லூரி",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "krishnammaal college",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325755633,
+    "lat": 11.0161571,
+    "lon": 76.9769892,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325755634,
+    "lat": 11.0123086,
+    "lon": 76.9855971,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325755635,
+    "lat": 11.0196539,
+    "lon": 76.9920264,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5329464921,
+    "lat": 11.0250018,
+    "lon": 77.0109093,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5329467721,
+    "lat": 11.0253481,
+    "lon": 77.0147772,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "varatharja mills",
+      "name:ta": "வரதராஜா மில்ஸ்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5329467821,
+    "lat": 11.0258834,
+    "lon": 77.0188218,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5329467822,
+    "lat": 11.0277184,
+    "lon": 77.0241324,
+    "tags": {
+      "alt_name": "cmc",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Coimbatore Medical College",
+      "name:ta": "கோவை மருத்துவக்கல்லூரி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5329467823,
+    "lat": 11.0348655,
+    "lon": 77.0338857,
+    "tags": {
+      "alt_name": "Aravinth eye hospital",
+      "alt_name:ta": "அரவிந்த் கண் மருத்துவமனை",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "PSG Arts college",
+      "name:ta": "பிஎஸ்ஜி கலைக்கல்லூரி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5329467921,
+    "lat": 11.0290424,
+    "lon": 77.0261905,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "CIT",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5329467922,
+    "lat": 11.0319554,
+    "lon": 77.0300142,
+    "tags": {
+      "alt_name": "GPT",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "GRD College",
+      "name:ta": "ஜி ஆர் தாமோதரன் கல்லூரி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338396395,
+    "lat": 10.9713709,
+    "lon": 76.9123843,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338396397,
+    "lat": 10.9732275,
+    "lon": 76.8601617,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Madhampatti",
+      "name:ta": "மாதம்பட்டி",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338396402,
+    "lat": 10.9669018,
+    "lon": 76.8306028,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Annanagar",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338396403,
+    "lat": 10.9615634,
+    "lon": 76.8159638,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "Pooluvapatti"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338396404,
+    "lat": 10.9614919,
+    "lon": 76.8052819,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "High school"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338399782,
+    "lat": 10.9677207,
+    "lon": 76.9020128,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "pachapalayam Pirivu",
+      "name:ta": "பச்சாபாளையம் பிரிவு",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338402546,
+    "lat": 10.9788828,
+    "lon": 76.9191725,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338402885,
+    "lat": 10.9840631,
+    "lon": 76.9253406,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Telungupalayam Pirivu",
+      "name:ta": "தெலுங்குபாளையம் பிரிவு",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338403023,
+    "lat": 10.9756906,
+    "lon": 76.9153755,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Perur",
+      "name:ta": "பேரூர்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338403578,
+    "lat": 11.0009305,
+    "lon": 77.0308342,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338403642,
+    "lat": 10.9433413,
+    "lon": 76.7633737,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338855922,
+    "lat": 11.036875,
+    "lon": 77.0362113,
+    "tags": {
+      "alt_name": "airport bus stop",
+      "alt_name:ta": "வானுர்தி நிலைய பேருந்து நிடுத்துமிடம்",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "SITRA",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5338855923,
+    "lat": 11.0404121,
+    "lon": 77.0408824,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "KMCH",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5658616084,
+    "lat": 11.0250174,
+    "lon": 76.9591357,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Sivananda Colony",
+      "operator": "TNSTC",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5660380899,
+    "lat": 11.0400251,
+    "lon": 76.9493444,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Housing unit",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6138341741,
+    "lat": 10.9954966,
+    "lon": 76.9607386,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Five Corner",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143816684,
+    "lat": 11.0252509,
+    "lon": 76.9354218,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "venkitapuram",
+      "name:ta": "வெங்கிட்டாபுரம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143816689,
+    "lat": 11.0270821,
+    "lon": 76.9555511,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "pudu paalam",
+      "name:ta": "புதுப்பாலம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143826584,
+    "lat": 11.018422,
+    "lon": 76.9202805,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "perumal kovil",
+      "name:ta": "பெருமாள் கோவில்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143833449,
+    "lat": 11.0270411,
+    "lon": 76.9053573,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "vadavalli",
+      "name:ta": "வடவள்ளி",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143839579,
+    "lat": 11.0305118,
+    "lon": 76.8910877,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "navavur pirivu",
+      "name:ta": "நவாவூர் பிரிவு",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143839580,
+    "lat": 11.0288507,
+    "lon": 76.8955997,
+    "tags": {
+      "alt_name": "anna university",
+      "alt_name:ta": "அண்ணா பல்கலைக்கழகம்",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "thiruvalluvar nagar",
+      "name:ta": "திருவள்ளுவர் நகர்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143840265,
+    "lat": 11.0319063,
+    "lon": 76.8881648,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "kalveerampalayam",
+      "name:ta": "கல்வீரம்பாளையம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143848628,
+    "lat": 11.0434989,
+    "lon": 76.863919,
+    "tags": {
+      "addr:city": "coimbatore",
+      "addr:city:ta": "கோயம்புத்தூர்",
+      "addr:district": "coimbatore",
+      "addr:district:ta": "கோயம்புத்தூர்",
+      "addr:place": "marudhamalai",
+      "addr:place:ta": "மருதமலை",
+      "addr:postcode": "641046",
+      "addr:state": "tamilnadu",
+      "addr:state:ta": "தமிழ்நாடு",
+      "alt_name": "marudhamalai bus stand",
+      "amenity": "bus_station",
+      "amenity:ta": "பேருந்து நிலையம்",
+      "loc_name": "marudamalai bus stand",
+      "name": "மருதமலை பேருந்து நிலையம்",
+      "name:en": "maruthamalai bus stand",
+      "name:ta": "மருதமலை பேருந்து நிலையம்",
+      "public_transport": "bus_station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143848629,
+    "lat": 11.0376821,
+    "lon": 76.8793118,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "bharathiar university",
+      "name:ta": "பாரதியார் பல்கலைக்கழகம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6144316491,
+    "lat": 11.027921,
+    "lon": 76.9059414,
+    "tags": {
+      "access": "yes",
+      "addr:city": "coimbatore",
+      "addr:city:ta": "கோயம்புத்தூர்",
+      "addr:country": "IN",
+      "addr:country:ta": "இந்தியா",
+      "addr:district": "coimbatore",
+      "addr:district:ta": "கோயம்புத்தூர்",
+      "addr:place": "Vadavalli",
+      "addr:place:ta": "மருதமலை",
+      "addr:state": "tamilnadu",
+      "addr:state:ta": "தமிழ்நாடு",
+      "amenity": "bus_station",
+      "name": "vadavalli bus stand",
+      "name:ta": "வடவள்ளி பேருந்து நிலையம்",
+      "public_transport": "bus_station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6153143207,
+    "lat": 11.0340517,
+    "lon": 76.9507666,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Fertilizer company(eru company)",
+      "name:ta": "எரு கம்பெனி",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6153156192,
+    "lat": 11.0195341,
+    "lon": 76.9532472,
+    "tags": {
+      "alt_name": "avinashilingam university",
+      "bus": "yes",
+      "name": "TVS",
+      "name:ta": "அவினசிலிங்கம் கல்லூரி",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6153156193,
+    "lat": 11.0099754,
+    "lon": 76.955229,
+    "tags": {
+      "bus": "yes",
+      "name": "crosscut",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6153156194,
+    "lat": 11.0145077,
+    "lon": 76.9549702,
+    "tags": {
+      "alt_name": "central theater",
+      "alt_name:ta": "சென்ட்ரல் தியேட்டர்",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "North coimbatore",
+      "name:ta": "வட கோவை",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6153384908,
+    "lat": 11.0406641,
+    "lon": 76.8704874,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "IOB Colony",
+      "name:ta": "ஐ ஓ பி காலனி",
+      "public_transport": "stop_position",
+      "source": "survey"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6160283112,
+    "lat": 11.0212462,
+    "lon": 76.9175133,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Mullainagar",
+      "name:ta": "முல்லை நகர்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6160283113,
+    "lat": 11.0187261,
+    "lon": 76.9205023,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "perumal kovil",
+      "name:ta": "பெருமாள் கோவில்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6160286189,
+    "lat": 11.0133463,
+    "lon": 76.9319019,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Agri University Garden Gate Stop",
+      "name:ta": "வேளாண்மைப் பல்கலைக்கழகம் நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6160289283,
+    "lat": 11.0165658,
+    "lon": 76.9234948,
+    "tags": {
+      "bus": "yes",
+      "name": "PN pudur",
+      "name:ta": "பி என் புதூர்",
+      "public_transport": "stop_position",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6160289284,
+    "lat": 11.0169169,
+    "lon": 76.9236877,
+    "tags": {
+      "bus": "yes",
+      "name": "PN pudur",
+      "name:ta": "பி என் புதூர்",
+      "public_transport": "stop_position",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6160293396,
+    "lat": 11.0228837,
+    "lon": 76.912262,
+    "tags": {
+      "bus": "yes",
+      "name": "karupparayan koyil",
+      "name:ta": "கருப்பராயன் கோயில்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6160293397,
+    "lat": 11.0231468,
+    "lon": 76.9124417,
+    "tags": {
+      "bus": "yes",
+      "name": "karupparayan koyil",
+      "name:ta": "கருப்பராயன் கோயில்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6160294060,
+    "lat": 11.0270683,
+    "lon": 76.9054093,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "vadavalli",
+      "name:ta": "வடவள்ளி",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6163643351,
+    "lat": 11.1643267,
+    "lon": 76.9489397,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Jothipuram",
+      "name:ta": "ஜோதிபுரம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6163643352,
+    "lat": 11.1787537,
+    "lon": 76.9565994,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Press colony",
+      "name:ta": "பிரஸ் காலனி",
+      "public_transport": "platform",
+      "shelter": "yes",
+      "shelter_type": "public_transport"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6163643353,
+    "lat": 11.1644159,
+    "lon": 76.9487457,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Jothipuram",
+      "name:ta": "ஜோதிபுரம்",
+      "public_transport": "platform",
+      "shelter_type": "public_transport"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6163643354,
+    "lat": 11.1789174,
+    "lon": 76.9565457,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Press colony",
+      "name:ta": "பிரஸ் காலனி",
+      "public_transport": "platform",
+      "shelter": "yes",
+      "shelter_type": "public_transport"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6163643968,
+    "lat": 11.1605478,
+    "lon": 76.9463923,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Vanaan Kovil",
+      "name:ta": "வண்ணான் கோயில்",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6174021468,
+    "lat": 11.1828627,
+    "lon": 76.9591283,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "thambu school",
+      "name:ta": "தம்பு மேனிலைப்பள்ளி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6174021469,
+    "lat": 11.182809,
+    "lon": 76.9594267,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "thambu school",
+      "name:ta": "தம்பு மேனிலைப்பள்ளி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6174022830,
+    "lat": 11.16933,
+    "lon": 76.9519607,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "Veerapandi Pirivu",
+      "name:ta": "வீரபாண்டி பிரிவு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6174023551,
+    "lat": 11.1981247,
+    "lon": 76.9625467,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "periyamathampalayam",
+      "name:ta": "பெரிய மத்தம்பாளையம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6174023552,
+    "lat": 11.1981189,
+    "lon": 76.9626859,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "periyamathampalayam",
+      "name:ta": "பெரிய மத்தம்பாளையம்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6207001231,
+    "lat": 11.0845248,
+    "lon": 77.1877025,
+    "tags": {
+      "air_conditioning": "no",
+      "amenity": "bus_station",
+      "bus": "yes",
+      "internet_access": "no",
+      "level": "0",
+      "name": "Somanur Bus Stand",
+      "name:ta": "சோமனூர் பேருந்து நிலையம்",
+      "operator": "TNSTC",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6302425117,
+    "lat": 11.0267349,
+    "lon": 76.9459685,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Sivasakthi Bus stop",
+      "name:ta": "சிவசக்தி பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6302425153,
+    "lat": 11.0254837,
+    "lon": 76.9378451,
+    "tags": {
+      "bus": "yes",
+      "designation": "P&T stop",
+      "highway": "bus_stop",
+      "name": "P&T stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6302429559,
+    "lat": 11.0236649,
+    "lon": 76.9088955,
+    "tags": {
+      "bus": "yes",
+      "name": "Highschool bus stop",
+      "name:ta": "ஹைஸ்கூல் பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6302429560,
+    "lat": 11.0238688,
+    "lon": 76.9089786,
+    "tags": {
+      "bus": "yes",
+      "name": "Highschool bus stop",
+      "name:ta": "ஹைஸ்கூல் பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6317234289,
+    "lat": 11.0136802,
+    "lon": 76.9398778,
+    "tags": {
+      "bench": "no",
+      "bin": "no",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "lit": "no",
+      "name": "lawley road",
+      "name:ta": "லாலி சாலை",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6317234291,
+    "lat": 11.0134529,
+    "lon": 76.9399007,
+    "tags": {
+      "bench": "yes",
+      "bin": "no",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "lit": "yes",
+      "name": "lawley road",
+      "name:ta": "லாலி சாலை",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6317234322,
+    "lat": 11.0143806,
+    "lon": 76.9268727,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "puliyamaram",
+      "name:ta": "புளியமரம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6317234323,
+    "lat": 11.0146645,
+    "lon": 76.9269344,
+    "tags": {
+      "bench": "no",
+      "bin": "no",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "lit": "no",
+      "name": "puliyamaram",
+      "name:ta": "புளியமரம்",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6332090079,
+    "lat": 11.026008,
+    "lon": 76.9427799,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "saibaba colony",
+      "name:ta": "சாய்பாபா காலனி",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6332110322,
+    "lat": 11.0395141,
+    "lon": 76.8738524,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "bharathiyar university second gate",
+      "name:ta": "பாரதியார் பல்கலைக்கழக இரண்டாவது நுழைவாயில்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6346388020,
+    "lat": 11.0139156,
+    "lon": 76.9418616,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "lawley road",
+      "name:ta": "லாலி சாலை",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6355855916,
+    "lat": 10.9698638,
+    "lon": 76.9714304,
+    "tags": {
+      "highway": "bus_stop",
+      "name:en": "Karupurayan Kovil"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6367890990,
+    "lat": 10.8934446,
+    "lon": 76.9273619,
+    "tags": {
+      "highway": "bus_stop",
+      "name:en": "RTO Checkpost (Outbound) Coimbatore",
+      "operator": "The category is incorrect. This is a Govt Vehicle Inspection post."
+    }
+  },
+  {
+    "type": "node",
+    "id": 6444453254,
+    "lat": 11.1495746,
+    "lon": 76.9441082,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "local_ref": "Lakshmi Machine Works",
+      "name": "LMW Stop",
+      "name:ta": "எல் எம் டபிள்யு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6444454446,
+    "lat": 11.1523498,
+    "lon": 76.9442864,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Periyanaickenpalayam Stop",
+      "name:ta": "பெரியநாயக்கன்பாளயம்",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6444461505,
+    "lat": 11.1881081,
+    "lon": 76.9611003,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "santhimedu",
+      "name:ta": "சாந்திமேடு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6444461506,
+    "lat": 11.1881998,
+    "lon": 76.9609345,
+    "tags": {
+      "highway": "bus_stop",
+      "name": "santhimedu",
+      "name:ta": "சாந்திமேடு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6446997506,
+    "lat": 11.0705492,
+    "lon": 76.9425297,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "VG Hospital Bus stop",
+      "name:ta": "வி.ஜி.மருத்துவமனை பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position",
+      "shelter": "no",
+      "tactile_paving": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6446998924,
+    "lat": 11.0643147,
+    "lon": 76.9437802,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Vellakinar Pirivu",
+      "name:ta": "வெள்ளக்கிணர் பிரிவு பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6447000092,
+    "lat": 11.059517,
+    "lon": 76.9449323,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Gounder Mills Bus Stop",
+      "name:ta": "கௌண்டர் மில்ஸ் பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6447011462,
+    "lat": 11.0800074,
+    "lon": 76.9415703,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Thudiyalur Bus stop",
+      "name:ta": "துடியலூர்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6447026210,
+    "lat": 11.0797526,
+    "lon": 76.941491,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Thudiyalur Bus stop",
+      "name:ta": "துடியலூர்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6447030770,
+    "lat": 11.080358,
+    "lon": 76.9417725,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Thudiyalur",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6447031827,
+    "lat": 11.0803208,
+    "lon": 76.9421725,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Thudiyalur",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6447042704,
+    "lat": 11.0844504,
+    "lon": 76.9390795,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "vadamadurai",
+      "name:ta": "வடமதுரை",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6447042705,
+    "lat": 11.0842678,
+    "lon": 76.9392698,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Vadamadurai",
+      "name:ta": "வடமதுரை",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6448930218,
+    "lat": 11.074592,
+    "lon": 76.9419506,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "viswanathapuram",
+      "name:ta": "விஸ்வநாதபுரம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6448934273,
+    "lat": 11.0745981,
+    "lon": 76.9420606,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "viswanathapuram",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6448984177,
+    "lat": 11.0551276,
+    "lon": 76.9457249,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "ITI busstop",
+      "public_transport": "stop_position",
+      "tactile_paving": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6448986452,
+    "lat": 11.0519755,
+    "lon": 76.9461587,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "highway:ta": "பேருந்து_நிறுத்தம்",
+      "name": "Cheran Nagar",
+      "name:ta": "சேரன் நகர் பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6448997790,
+    "lat": 11.0452035,
+    "lon": 76.9474306,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Kavundampalayam",
+      "name:ta": "கவுண்டம்பாளையம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6448997792,
+    "lat": 11.0452191,
+    "lon": 76.9472803,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Kavundampalayam",
+      "name:ta": "கவுண்டம்பாளையம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6471941605,
+    "lat": 11.0283173,
+    "lon": 76.9016341,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Aalamaram",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6576994517,
+    "lat": 11.1147752,
+    "lon": 76.9356489,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "narasimmanaickenpalayam",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6576994520,
+    "lat": 11.1147867,
+    "lon": 76.935738,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "narasimmanaickenpalayam",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6580802829,
+    "lat": 11.1981565,
+    "lon": 76.9626155,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "periyamathampalayam",
+      "name:ta": "பெரியமத்தம்பாளையம்",
+      "public_transport": "stop_position",
+      "public_transport:version": "2"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6580807399,
+    "lat": 11.1608676,
+    "lon": 76.9463104,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "vannan koil",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6581542313,
+    "lat": 11.1524401,
+    "lon": 76.9444596,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "periyanaickenpalayam",
+      "name:ta": "பெரியநாயக்கன்பாளையம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6581548328,
+    "lat": 11.1694018,
+    "lon": 76.9518823,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "veerapandi pirivu",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6581548329,
+    "lat": 11.1698437,
+    "lon": 76.9520415,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "veerapandi pirivu",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6581556739,
+    "lat": 11.1491993,
+    "lon": 76.9442537,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "LMW",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6581556740,
+    "lat": 11.1495625,
+    "lon": 76.9442792,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "LMW",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6583172465,
+    "lat": 11.0419443,
+    "lon": 76.8675036,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "law college bus stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6583179295,
+    "lat": 11.0269485,
+    "lon": 76.950624,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "saibaba temple bus stop",
+      "public_transport": "stop_position",
+      "share_taxi": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6704654714,
+    "lat": 11.1350182,
+    "lon": 76.9390709,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "gas company bus stop",
+      "name:ta": "கேஸ் கம்பெனி பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6704654715,
+    "lat": 11.1350915,
+    "lon": 76.9390155,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "gas company bus stop",
+      "name:ta": "கேஸ் கம்பெனி பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6704674586,
+    "lat": 11.1749038,
+    "lon": 76.9541049,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "thiruvalluvar nagar bus stop",
+      "name:ta": "திருவள்ளுவர் நகர் பேருந்து நிறுத்தம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6751947474,
+    "lat": 11.0350487,
+    "lon": 77.0337109,
+    "tags": {
+      "alt_name": "Aravinth eye hospital",
+      "alt_name:ta": "அரவிந்த் கண் மருத்துவமனை",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "PSG Arts college",
+      "name:ta": "பிஎஸ்ஜி கலைக்கல்லூரி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6751947475,
+    "lat": 11.0257673,
+    "lon": 77.0166097,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "hope college",
+      "name:ta": "ஹோப்ஸ் கல்லூரி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6751947476,
+    "lat": 11.0321884,
+    "lon": 77.0298727,
+    "tags": {
+      "alt_name": "GPT",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "GRD College",
+      "name:ta": "ஜி ஆர் தாமோதரன் கல்லூரி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6751947477,
+    "lat": 11.0376503,
+    "lon": 77.0368215,
+    "tags": {
+      "alt_name": "airport bus stop",
+      "alt_name:ta": "வானுர்தி நிலைய பேருந்து நிடுத்துமிடம்",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "SITRA",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6751947478,
+    "lat": 11.0279253,
+    "lon": 77.0240427,
+    "tags": {
+      "alt_name": "cmc",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Coimbatore Medical College",
+      "name:ta": "கோவை மருத்துவக்கல்லூரி",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6751947479,
+    "lat": 11.0255467,
+    "lon": 77.0147532,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "varatharja mills",
+      "name:ta": "வரதராஜா மில்ஸ்",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6751960530,
+    "lat": 11.0230031,
+    "lon": 77.000944,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "psg tech",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6751962820,
+    "lat": 11.0246707,
+    "lon": 77.0076487,
+    "tags": {
+      "alt_name": "psg hospital",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "krishnammaal college",
+      "name:ta": "கிருஷ்ணம்மாள் கல்லுரி",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6754777018,
+    "lat": 11.0474698,
+    "lon": 76.9712356,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "poosaripalayam",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6898200292,
+    "lat": 10.8427078,
+    "lon": 76.8388789,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "pole": "no",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7028105762,
+    "lat": 11.0572498,
+    "lon": 77.0040373,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Vinayagapuram Bus Stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7083539299,
+    "lat": 10.9710579,
+    "lon": 76.8888297,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "kovai kondaattam",
+      "name:ta": "கோவை கொண்டாட்டம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7083539300,
+    "lat": 10.9708666,
+    "lon": 76.8945654,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "kalampalayam",
+      "name:ta": "காளாம்பாளையம்",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7083539301,
+    "lat": 10.9710717,
+    "lon": 76.8918769,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7083557124,
+    "lat": 10.9675679,
+    "lon": 76.8450079,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Mathipalayam pirivu",
+      "name:ta": "மத்திபாளையம் பிரிவு",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7374839281,
+    "lat": 10.8193778,
+    "lon": 76.8095066,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Canalpirivu",
+      "pole": "no",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7494572693,
+    "lat": 10.7521936,
+    "lon": 76.7592414,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "theerthampadam",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7496711959,
+    "lat": 10.7580248,
+    "lon": 76.7512426,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Para Bus Stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7691253750,
+    "lat": 10.8358683,
+    "lon": 76.8366474,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Walayar",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8519254287,
+    "lat": 11.0714113,
+    "lon": 76.8770414,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8519254288,
+    "lat": 11.0521722,
+    "lon": 76.917605,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8519282214,
+    "lat": 11.0651427,
+    "lon": 76.9082994,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8519286079,
+    "lat": 11.0682049,
+    "lon": 76.8875126,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8519308659,
+    "lat": 11.0734322,
+    "lon": 76.8699631,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8519313471,
+    "lat": 11.0704467,
+    "lon": 76.8827347,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9160367011,
+    "lat": 10.9520099,
+    "lon": 76.9535331,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Edayarpalayam pirivu",
+      "name:ml": "ഇഡൈയർപാളയം പിരിവു",
+      "name:ta": "இடையர்பாளையம் பிரிவு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9583689952,
+    "lat": 10.7978655,
+    "lon": 76.7570892,
+    "tags": {
+      "bench": "no",
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "Unginchuvadu",
+      "name:en": "Unginchuvadu",
+      "name:ml": "ഉങ്ങിൻചുവട്",
+      "public_transport": "platform",
+      "ref": "Endt.no.G1/102461/2016/p",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9585559665,
+    "lat": 10.8260633,
+    "lon": 76.8174785,
+    "tags": {
+      "bench": "yes",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Vattappara",
+      "pole": "no",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9585559674,
+    "lat": 10.8196094,
+    "lon": 76.8093004,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Canalpirivu",
+      "pole": "no",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9585559676,
+    "lat": 10.8183132,
+    "lon": 76.806238,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Mangalathachalla",
+      "pole": "no",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9587551021,
+    "lat": 10.808464,
+    "lon": 76.7920817,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Attappallam",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9588126711,
+    "lat": 10.8489655,
+    "lon": 76.8406237,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Township",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9606299075,
+    "lat": 10.7982571,
+    "lon": 76.7594288,
+    "tags": {
+      "highway": "bus_stop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9609245350,
+    "lat": 10.8480115,
+    "lon": 76.8401083,
+    "tags": {
+      "bench": "yes",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Township",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9921938857,
+    "lat": 11.0205914,
+    "lon": 76.9709694,
+    "tags": {
+      "bus": "yes",
+      "name": "GP Hospital Bus Stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9921938858,
+    "lat": 11.0202047,
+    "lon": 76.9670898,
+    "tags": {
+      "bench": "no",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "kalyan jewellers bus stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9921938862,
+    "lat": 11.0196386,
+    "lon": 76.9593056,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Power House Bus Stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9921938865,
+    "lat": 11.0143193,
+    "lon": 76.9668131,
+    "tags": {
+      "bench": "yes",
+      "bin": "yes",
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Coimbatore Gandhipuram Mofussil Bus Stand",
+      "passenger_information_display": "yes",
+      "public_transport": "stop_position",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9928416335,
+    "lat": 11.0204498,
+    "lon": 76.9706401,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "GP Hospital Bus Stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9928416338,
+    "lat": 11.0207457,
+    "lon": 76.9706011,
+    "tags": {
+      "bus": "yes",
+      "name": "Iyer Hospital Bus Stop",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9928443878,
+    "lat": 11.1997155,
+    "lon": 76.8610704,
+    "tags": {
+      "bus": "yes",
+      "name": "Seeliyur Bus Stop",
+      "operator": "TNSTC",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9928444431,
+    "lat": 11.19917,
+    "lon": 76.8206012,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Sundakorai Stop",
+      "operator": "TNSTC",
+      "public_transport": "stop_position",
+      "public_transport:version": "2"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9928444470,
+    "lat": 11.1878613,
+    "lon": 76.8089242,
+    "tags": {
+      "alt_name": "Athimathaiyanur",
+      "bench": "yes",
+      "covered": "yes",
+      "highway": "bus_stop",
+      "name": "Adhimadhayanur",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10216846614,
+    "lat": 11.0273066,
+    "lon": 77.1510559,
+    "tags": {
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "Kangeyampalam bus stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10216846615,
+    "lat": 11.0275742,
+    "lon": 77.1510099,
+    "tags": {
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "kangeyampalayam bus stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10216846616,
+    "lat": 11.0273743,
+    "lon": 77.1563492,
+    "tags": {
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "Sulur aero main gate bus stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10216903717,
+    "lat": 11.0271985,
+    "lon": 77.1553569,
+    "tags": {
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "Sulur aero main gate bus stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10819294131,
+    "lat": 11.0707559,
+    "lon": 77.1037169,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Muthalipalayam Pirivu",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10819294132,
+    "lat": 11.0729263,
+    "lon": 77.1069136,
+    "tags": {
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "Sulur Pirivu",
+      "name:ta": "சூலூர் பிரிவு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10819294133,
+    "lat": 11.0723108,
+    "lon": 77.1073731,
+    "tags": {
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "Sulur Pirivu",
+      "name:ta": "சூலூர் பிரிவு",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10819294134,
+    "lat": 11.0828609,
+    "lon": 77.1226771,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10819294135,
+    "lat": 11.0823183,
+    "lon": 77.1228136,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10819294136,
+    "lat": 11.0881912,
+    "lon": 77.1306599,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10819294137,
+    "lat": 11.0877871,
+    "lon": 77.1308186,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10819301266,
+    "lat": 11.0722795,
+    "lon": 77.19278,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Samalapuram",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10895457701,
+    "lat": 11.0096841,
+    "lon": 77.0249559,
+    "tags": {
+      "bus": "yes",
+      "name": "ESI HOSPITAL",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10959439214,
+    "lat": 10.9975271,
+    "lon": 77.099384,
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "Kannampalayam Bus Stop",
+      "name:ta": "கண்ணம்பாளையம் பேருந்து நிறுத்தம்",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11181044552,
+    "lat": 11.1543629,
+    "lon": 77.1989386,
+    "tags": {
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "Gandhi Nagar Bustop",
+      "network": "Tamilnadu transport",
+      "operator": "TN",
+      "public_transport": "platform",
+      "shelter": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11203960732,
+    "lat": 10.9623919,
+    "lon": 76.9713702,
+    "tags": {
+      "bus": "yes",
+      "departures_board": "no",
+      "highway": "bus_stop",
+      "name": "Kurichi Govt School Bus Stop",
+      "name:ta": "குறிச்சி அரசு பள்ளி",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11238086687,
+    "lat": 10.9628672,
+    "lon": 76.9722985,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "Kurichi Govt School Bus Stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12068520806,
+    "lat": 11.0304846,
+    "lon": 77.0281885,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "CODISSIA",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12068520807,
+    "lat": 11.0411098,
+    "lon": 77.0414333,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "KMCH",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12201843941,
+    "lat": 11.0675525,
+    "lon": 77.0018409,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform",
+      "shelter": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12474070991,
+    "lat": 10.9885987,
+    "lon": 76.961668,
+    "tags": {
+      "addr:district": "Coimbatore",
+      "addr:postcode": "641008",
+      "addr:street": "South Ukkadam",
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "Ukkadam Bus Stand",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12704595388,
+    "lat": 11.0443794,
+    "lon": 76.8623489,
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "Maruthamalai Bus Ticket counter",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12915086066,
+    "lat": 11.1492164,
+    "lon": 76.9440941,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "LMW",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12915086072,
+    "lat": 11.1495809,
+    "lon": 76.9441424,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "LMW",
+      "public_transport": "stop_position"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12915086077,
+    "lat": 11.1524315,
+    "lon": 76.9443148,
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "periyanaickenpalayam",
+      "name:ta": "பெரியநாயக்கன்பாளையம்",
+      "public_transport": "stop_position"
+    }
+  }
+]

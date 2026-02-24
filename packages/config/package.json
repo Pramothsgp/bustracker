@@ -1,0 +1,10 @@
+{
+  "name": "@bus/config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./typescript/base": "./typescript/base.json",
+    "./typescript/node": "./typescript/node.json",
+    "./typescript/react": "./typescript/react.json"
+  }
+}

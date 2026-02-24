@@ -1,0 +1,10 @@
+{
+  "extends": "../config/typescript/node.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@bus/db/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}

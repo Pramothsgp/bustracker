@@ -1,0 +1,570 @@
+stop_id,stop_name
+1,gandhipuram town bs
+2,park gate
+3,v.o.c. park
+4,c.s.i. school
+5,c.s.i. immanuel church
+6,d.s.p. office
+7,collector office
+8,railway station
+9,town hall
+10,ukkadam
+11,karumbukadai
+12,athupalam
+13,kuniyamuthur high school
+14,kuniyamuthur
+15,nehru college
+16,edayarpalayam pirivu
+17,kuniyamuthur police station
+18,b.k. pudur
+19,kovaipudur pirivu
+20,milekal
+21,gandhi nagar
+22,madukkarai police station
+23,madukkarai union office
+24,marappalam
+25,chettipalayam pirivu
+26,indian bank
+27,thirumalayampalayam pirivu
+28,k.g. chavadi
+29,kumittipathi bs
+30,singanallur
+31,uzhavar sandhai
+32,boat house
+33,children hospital
+34,rajalakshmi mill
+35,central studios
+36,andal marriage hall / iyer hospital
+37,alvernia school
+38,sowripalayam pirivu
+39,ramanathapuram
+40,olympus
+41,chinthamani
+42,sungam
+43,air india
+44,rainbow
+45,saint francis anglo indian girls high school
+46,government hospital
+47,prakasam
+48,oppanakara street bus stop
+49,sukrawarpet
+50,mahali amman koil / flower market
+51,poomarket
+52,navratna hotel
+53,north coimbatore
+54,t.v.s.
+55,murugan mills
+56,saibaba kovil
+57,ooty new
+58,eru company
+59,housing unit
+60,kavundampalayam
+61,cheran nagar
+62,i.t.i.
+63,g.n. mills
+64,vellakinar pirivu
+65,venugopal hospital
+66,viswanathapuram
+67,thudiyalur
+68,ulavar sandhai
+69,vadamadurai
+70,v.s.k. nagar
+71,palanigoundanpudhur
+72,gowtham nagar
+73,pannimadai main
+74,pannimadai
+75,dhaliyur
+76,avinashilingam university
+77,pappanaickenpalayam
+78,varappalayam
+79,ramanathapuram village
+80,madathur
+81,madathur puthur
+82,nanjundapuram
+83,chinna thadagam
+84,raja street
+85,five corner
+86,manikoondu / town hall
+87,vasantha mill
+88,shanthi gears
+89,jai sai shanthi
+90,saint joseph school
+91,saint joseph matriculation secondary school
+92,ondipudur
+93,sri hari mills
+94,kamatchipuram
+95,kadri mills high school
+96,karthik mills
+97,krishna priya thirumana mandapam
+98,l & t bypass
+99,saraswathi hospital
+100,kannampalayam pirivu
+101,cindhamanipudur
+102,pappampatti pirivu
+103,selvapuram
+104,ravathur pirivu
+105,r.v.s. institute
+106,narasimha textiles
+107,ranganathapuram
+108,sulur police station
+109,sulur g.h.
+110,sulur
+111,market cut / cinema theatre
+112,r.v.s. arts college
+113,kongu kalyana mandapam
+114,r.t.o. office
+115,kangayampalayam
+116,airforce sulpur
+117,kendriya vidyalaya sulur
+118,rayapuram
+119,karanampettai
+120,kodangipalayam
+121,sihs colony
+122,mahalakshmi bakery
+123,chetty street
+124,high school
+125,muthusawamy colony
+126,l.i.c. colony
+127,telungupalayam hospital
+128,telungupalayam pirivu
+129,tamil college
+130,perur
+131,perur chettipalayam
+132,postal colony
+133,arumuga goundanur
+134,ramachettipalayam
+135,sundakkamuthur
+136,anbu nagar
+137,ashram school
+138,anna nagar
+139,om shakthi nagar
+140,mohan corner
+141,kovaipudur
+142,puliyamaram
+143,saibaba colony
+144,sri valli theatre / annapoorna
+145,p & t
+146,venkitapuram
+147,velandipalayam
+148,kovil medu
+149,shivaji colony
+150,edayarpalayam
+151,t.v.s. nagar
+152,luna
+153,k.n.g. pudur pirivu
+154,autoprint
+155,keartiman matriculation higher secondary school
+156,kanuvai
+157,vasanth & company
+158,karpagam complex
+159,kalyan sarees
+160,g.p. hospital
+161,gandhipuram town
+162,kurumbapalayam
+163,e.s.i. hospital
+164,varadharajapuram
+165,ukkadam bs
+166,a.b.c. agro and food machine factory
+167,nayakar thottam
+168,gundu perumal temple
+169,thiruvalluvar nagar
+170,somayanur
+171,kalayanur
+172,thanneer pandal
+173,rangaswamy gowder garden
+174,chinna thadagam government boys school
+175,mariamman temple
+176,vrindavan nagar
+177,veerapandi
+178,primary hospital
+179,veerapandi bs
+180,government higher secondary school
+181,kurichi pirivu
+182,kurichi pirivu housing unit
+183,iyer hospital
+184,sundarapuram
+185,sidco
+186,k.p.m. matriculation school
+187,rathinam college
+188,eachanari
+189,karpagam university
+190,ganesh nagar
+191,malumichampatti junction
+192,malumichampatti
+193,hindustan college
+194,othakal mandapam
+195,womens polytechnic
+196,r.t.o.
+197,stanes higher secondary school
+198,anna statue
+199,karpagam medical college & hospital
+200,premier mills
+201,ckit institute
+202,polytechnic college
+203,vivek vidyalaya matric higher secondary school
+204,v.s.b. college of engineering
+205,mailrapalayam
+206,arasampalayam
+207,gandhi park corporation complex
+208,r.s. puram boys higher secondary school
+209,shri nehru vidyalaya
+210,lawley road
+211,government college of technology
+212,vel international public school
+213,kasi nanjegoundan pudur
+214,v.k.r. nagar
+215,subramaniam palayam
+216,cheran colony
+217,pachapalayam junction
+218,kalampalayam
+219,thuruthipallam
+220,chellappa goundan puthur
+221,madampatti
+222,indira nagar
+223,sennanur thanneer pandal
+224,spic
+225,chithrai chavadi
+226,pooluvapatti
+227,srinivasapuram
+228,alandurai high school
+229,aalandurai
+230,oriental insurance
+231,lakshmipuram
+232,tex tool / velan theatre
+233,ganapathy
+234,surya hospital
+235,c.m.s. school
+236,athipalayam junction
+237,bharathi nagar
+238,ramakrishna mill
+239,l.g.b. nagar
+240,sivanandha mills
+241,marakadai
+242,k.p.r. mill
+243,gknm hospital
+244,lakshmi mills
+245,nava india
+246,suguna kalyana mandapam bus stop
+247,p.s.g. tech / peelamedu
+248,krishnamal college
+249,fun mall
+250,varatharaja mills
+251,hope college
+252,c.i.t.
+253,codissia
+254,arvind eye hospital
+255,sitra airport
+256,nehru nagar
+257,periyar nagar
+258,n.g.p. college
+259,kmch college of pharmacy
+260,lakshmi technology
+261,kalapatti
+262,vanthavalam
+263,singanallur police station
+264,tamilnadu agricultural university main gate
+265,botanical garden
+266,mullai nagar
+267,vadavalli
+268,poosaripalayam
+269,panaimarathoor
+270,moongathur
+271,veerakeralam
+272,nagarajapuram main
+273,nambialaganpalayam
+274,p.s.g. high school vedapatti
+275,sethu vidyalaya
+276,sundapalayam
+277,onapalayam
+278,uliyampaalayam
+279,deenampalayam
+280,pudhupalayam
+281,kulathupalayam
+282,thondamuthur 2
+283,thondamuthur
+284,vandikaranur pirivu more
+285,kaaliamman pudur
+286,parameswaranpalayam
+287,devarayapuram
+288,devarayapuram west
+289,sowripalayam
+290,annai velakanni matriculation high school
+291,sowripalayam main
+292,udayampalayam
+293,meena estate
+294,puliyakulam vinayagar temple
+295,puliyakulam water tank
+296,puliyakulam police station
+297,carmel garden matriculation higher secondary school (c.g.m.h
+298,m.c. complex
+299,sri lakshmi vinayagar thirukovil
+300,p.n. pudur
+301,perumal kovil
+302,karupparayan kovil
+303,anandha kumar mills
+304,s.r.p. mills
+305,amman kovil
+306,g.k.s. nagar
+307,kalapatti pirivu
+308,saravanampatti
+309,viswasapuram
+310,karattumedu
+311,r.k.k nagar
+312,government school
+313,kalapatti mariamman temple
+314,mylampatti
+315,andakkapalayam
+316,sri krishna nagar
+317,vellanaipatti bs
+318,serayampalayam
+319,brookefields mall / devanga high school
+320,telungupalayam pirivu bus stop
+321,thondamuthur 3
+322,power house
+323,sivananda colony
+324,puthu palam
+325,nggo colony
+326,sri murugan nagar
+327,thoppampatti pirivu
+328,rakkiapalayam pirivu
+329,kumaran mills
+330,narasimhanaickenpalayam
+331,k.s.b.
+332,a.v.b. matriculation school / ramanarayana mill
+333,gas company
+334,ramakrishna mission vivekananda university
+335,ranganayagi nagar
+336,srkv polytechnic college
+337,l.m.w.
+338,periyanaickenpalayam
+339,pricol
+340,vannan kovil
+341,jothipuram
+342,veerapandi pirivu
+343,press colony
+344,teachers colony
+345,ganapathy colony
+346,vattamalaipalayam
+347,sengalipalayam
+348,cardwell industry
+349,maniakarampalayam
+350,government high school idigarai
+351,indian overseas bank
+352,dpf-cyprus oaks
+353,damu nagar
+354,pattanam
+355,ayurvedic hospital
+356,ganapathy housing unit
+357,sanganoor
+358,r.k.g. industrial estate
+359,ganesh theatre
+360,christ the king church
+361,d.s.p. office junction
+362,thirumalayampalayam
+363,kmch hospital
+364,goldwins
+365,thottipalayam pirivu bus stop
+366,pls nagar
+367,rangaswamy goundan pudur
+368,chinniyampalayam
+369,le meridien
+370,neelambur
+371,sulur pirivu
+372,thennampalayam
+373,k.p.r. institute / lpt
+374,kollupalayam
+375,kaniyur check post
+376,kaniyur
+377,prema hospital
+378,karumathampatti
+379,krishnapuram
+380,sangeetha theatre
+381,somanur bs
+382,suguna kalyana mandapam
+383,madukkarai market
+384,vivekam higher secondary school
+385,sri narasimha kovil
+386,veerapandi panchayat office
+387,vanjimanagar
+388,ganeshapuram
+389,samichettipalayam
+390,kinathukadavu check post
+391,arulmigu velayutha swamy temple
+392,kinathukadavu
+393,malumicham patti panchayat union school
+394,sidco malumichampatti
+395,coimbatore golf club
+396,chettipalayam bs
+397,avarampalayam bs
+398,ramakrishna hospital
+399,jaganatha perumal thiru kovil
+400,karadimadai
+401,barathipuram
+402,kit-kalaignarkarunanidhi institute
+403,pallapalayam
+404,kannampalayam
+405,kannampalayam 1
+406,big bazar street
+407,bs number 5
+408,cheranma nagar
+409,kulathupalayam outbound
+410,gokulam colony
+411,podanur railway station
+412,podanur police station
+413,sai nagar
+414,mayilkal
+415,p.v.g. thirumana mahal
+416,karuparayan kovil
+417,podanur pirivu
+418,ondipudur sungam
+419,canara bank irugur
+420,irugur junction railway station
+421,irugur
+422,a.g. pudur
+423,premier evolvics
+424,kulathur
+425,neelikonampalayam
+426,government higher secondary school ganapathy
+427,p.p.g. it
+428,s.n.s. college / valiyampalayam pirivu
+429,s.n.s. college
+430,sri village nagar
+431,kodia park
+432,info institute of engineering
+433,kovilpalayam
+434,s.s. kulam
+435,v.j. nagar
+436,kottaipalayam
+437,c.s.i. colony
+438,agrahara samakulam
+439,thottipalayam
+440,vellamadai
+441,apollo clinic
+442,uzhavar sandhai rs puram
+443,vadavalli high school
+444,aalamaram
+445,navavoor pirivu
+446,kalveerampalayam
+447,nalvar nagar
+448,bharathiyar university 1st gate
+449,bharathiyar university 2nd gate
+450,i.o.b. colony
+451,law college
+452,maruthamalai bs
+453,seeralapalayam
+454,pichanur
+455,santosh nagar
+456,chunnambukalthode
+457,lakshamveedu
+458,nallur
+459,sorappara
+460,chanthapetai
+461,kozhippara
+462,saniswaran
+463,ealipara
+464,kottilpara
+465,menonpara
+466,athicode junction
+467,karugaparai
+468,kozhinjampara
+469,rail kalyana mandapam
+470,podanur railway gate
+471,g.d. hospital
+472,railway s & t workshop
+473,sithnapuram
+474,g.d. wiler
+475,sam anna nagar
+476,konavaikkalpalayam
+477,balu medicals
+478,mahalingapuram
+479,elgi nagar
+480,bharat petrol pump
+481,senthur mahal
+482,sri subramanyaswamy temple
+483,peachiamman kovil
+484,e.s.i.
+485,vellalore bs
+486,kanjikonam palayam
+487,vksm cotton mill
+488,nadupalayam pirivu
+489,peedampalli
+490,valarmathi school
+491,pappampatti post office
+492,pappampatti
+493,aatha thottam
+494,podanur bus stop
+495,dresser valve
+496,gedee public school
+497,nabi nagar
+498,crematorium
+499,eshwar nagar
+500,r.r. nagar
+501,puthur
+502,thillai nagar
+503,thennamanallur east
+504,thombilipalayam
+505,kovilpalayam bs
+506,vaiyampalayam
+507,ranganathar polytechnic
+508,athipalayam
+509,idigarai
+510,oppanakara street
+511,vijay nagar
+512,bommanampalayam
+513,bommanampalayam main
+514,b.r.k. school
+515,jayalakshmi nagar
+516,k.g. mill
+517,k.g. mill check post
+518,global greens
+519,sri ramalinga sowdambigai college
+520,palathurai
+521,okkilipalayam
+522,ambedkar nagar
+523,sri lakshmi narayana visalakshi college
+524,mayiladum parai
+525,chettipalayam
+526,karpagam college of engineering
+527,myleripalayam 2
+528,myleripalayam
+529,s.v.s. college of engineering
+530,kondampatti
+531,sri eshwar college of engineering
+532,samathuvapuram-vadasithur
+533,vadasithur
+534,panapatti
+535,kallimedu
+536,balaji nagar
+537,edayampalayam
+538,shaswi international school
+539,bogampatti pirivu
+540,akkanaikkanpalayam
+541,thermutti
+542,singanallur bs
+543,manis theatre
+544,ramanujar nagar
+545,lions
+546,k.g. hospital
+547,chinnavedampatti
+548,gopalakrishna mill
+549,y.m.c.a. office
+550,ondipudur bus depot
+551,g.r.g. school
+552,wipro
+553,kumudham nagar
+554,arasur school
+555,arasur
+556,shanti ashram
+557,kalikkanaicken palayam
+558,poochiyur
+559,aallamara
+560,walayar
+561,suguna international school
+562,maha lakshmi nagar
+563,kallipalayam
+564,aayi amman kovil
+565,molapalayam
+566,mariamman kovil
+567,poorandampalayam
+568,pachapalayam
+569,vagarayampalayam

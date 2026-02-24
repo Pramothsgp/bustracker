@@ -1,0 +1,23 @@
+{
+  "name": "bus-tracker",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "db:generate": "turbo db:generate --filter=@bus/db",
+    "db:migrate": "turbo db:migrate --filter=@bus/db",
+    "db:push": "turbo db:push --filter=@bus/db",
+    "db:seed": "turbo db:seed --filter=@bus/db",
+    "db:studio": "turbo db:studio --filter=@bus/db"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0"
+  },
+  "packageManager": "bun@1.2.4"
+}
