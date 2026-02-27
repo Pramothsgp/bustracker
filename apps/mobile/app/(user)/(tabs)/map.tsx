@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef, useMemo } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
-import MapView, { Marker, MapAvailable, PROVIDER_GOOGLE } from "@/components/SafeMapView";
+import MapView, { Marker, MapAvailable } from "@/components/SafeMapView";
 import LeafletMap from "@/components/LeafletMap";
 import type { LeafletMarker } from "@/components/LeafletMap";
 import { router } from "expo-router";
@@ -123,7 +123,6 @@ export default function MapScreen() {
       <MapView
         ref={mapRef}
         className="flex-1"
-        provider={PROVIDER_GOOGLE}
         initialRegion={initialRegion}
         showsUserLocation
         showsMyLocationButton

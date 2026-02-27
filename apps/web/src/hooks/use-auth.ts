@@ -30,7 +30,6 @@ export function useAuth() {
     const data = await api.post<{ token: string; user: User }>("/auth/admin/login", { email, password });
     localStorage.setItem("token", data.token);
     setUser(data.user);
-    return data.user;
   }, []);
 
   const logout = useCallback(() => {
