@@ -10,7 +10,10 @@ try {
   RNMaps = null;
 }
 
-const isAvailable = RNMaps !== null;
+// Native maps require a Google Maps API key configured in AndroidManifest.xml.
+// Without it, rendering MapView crashes the app. Use Leaflet WebView fallback
+// until a Google Maps API key is configured.
+const isAvailable = false;
 
 // Re-export map components (real or placeholder)
 export const MapAvailable = isAvailable;

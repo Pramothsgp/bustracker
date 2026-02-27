@@ -1,9 +1,10 @@
 import { createDb } from "../client.js";
-import { stops, routes, routeStops, users } from "../schema/index.js";
+import { stops, routes, routeStops, users, tripLocations, trips, buses, otpCodes } from "../schema/index.js";
 import { createId } from "@paralleldrive/cuid2";
 import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { sql } from "drizzle-orm";
 import "dotenv/config";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -66,6 +67,18 @@ async function seed() {
 
   const db = createDb(databaseUrl);
   console.log("🌱 Starting seed...\n");
+
+  // ── 0. Clear existing data (order matters for FK constraints) ──
+  console.log("🧹 Clearing existing data...");
+  await db.delete(tripLocations);
+  await db.delete(trips);
+  await db.delete(routeStops);
+  await db.delete(buses);
+  await db.delete(routes);
+  await db.delete(stops);
+  await db.delete(otpCodes);
+  await db.delete(users);
+  console.log("✅ Cleared existing data\n");
 
   // ── 1. Parse data files ──
   const stopsMaster = parseCSV(readFileSync(resolve(dataDir, "stops_master.csv"), "utf-8"));

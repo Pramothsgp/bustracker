@@ -9,7 +9,7 @@ import {
   PanResponder,
 } from "react-native";
 import { useLocalSearchParams } from "expo-router";
-import MapView, { Marker, Polyline, MapAvailable, PROVIDER_GOOGLE } from "@/components/SafeMapView";
+import MapView, { Marker, Polyline, MapAvailable } from "@/components/SafeMapView";
 import LeafletMap from "@/components/LeafletMap";
 import type { LeafletMarker, LeafletPolyline } from "@/components/LeafletMap";
 import { api } from "@/lib/api";
@@ -183,7 +183,6 @@ export default function RouteDetailScreen() {
         {MapAvailable ? (
           <MapView
             className="flex-1"
-            provider={PROVIDER_GOOGLE}
             initialRegion={initialRegion}
           >
             {routeCoords.length > 1 && (
