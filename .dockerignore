@@ -1,0 +1,25 @@
+**/node_modules
+.git
+.turbo
+.env*
+*.md
+
+# Apps not deployed — exclude source but keep package.json for workspace resolution
+apps/web/src
+apps/web/public
+apps/mobile/app
+apps/mobile/assets
+apps/mobile/components
+
+# Seed data (not needed at runtime)
+packages/db/src/seed
+
+# Build artifacts
+dist
+.next
+.expo
+
+# IDE / OS
+.vscode
+.idea
+.DS_Store
