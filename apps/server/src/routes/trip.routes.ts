@@ -21,7 +21,7 @@ router.post(
   "/:id/end",
   authenticate,
   authorize("driver"),
-  effectHandler((req) => TripService.end(req.params.id, req.user!.userId))
+  effectHandler((req) => TripService.end(req.params.id as string, req.user!.userId))
 );
 
 export default router;

@@ -15,11 +15,11 @@ router.get(
   effectHandler((req) => RouteService.search(req.query.q as string))
 );
 
-router.get("/:id", effectHandler((req) => RouteService.getById(req.params.id)));
+router.get("/:id", effectHandler((req) => RouteService.getById(req.params.id as string)));
 
 router.get(
   "/:id/buses",
-  effectHandler((req) => TrackingService.getRouteActiveBuses(req.params.id))
+  effectHandler((req) => TrackingService.getRouteActiveBuses(req.params.id as string))
 );
 
 export default router;

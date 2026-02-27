@@ -19,7 +19,7 @@ router.get(
 
 router.get(
   "/route/:routeId",
-  effectHandler((req) => TrackingService.getRouteActiveBuses(req.params.routeId))
+  effectHandler((req) => TrackingService.getRouteActiveBuses(req.params.routeId as string))
 );
 
 export default router;

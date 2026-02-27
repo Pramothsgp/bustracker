@@ -17,6 +17,6 @@ router.get(
   })
 );
 
-router.get("/:id", effectHandler((req) => StopService.getById(req.params.id)));
+router.get("/:id", effectHandler((req) => StopService.getById(req.params.id as string)));
 
 export default router;
