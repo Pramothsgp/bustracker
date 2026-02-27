@@ -1,0 +1,97 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  REGION: asia-south1
+  REPO: bus-repo
+  IMAGE: api
+  SERVICE: bus-tracker-api
+
+jobs:
+  # ─── CI: runs on every push and PR ───────────────────────────
+  ci:
+    name: Build & Type-check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.2.4"
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Type-check server
+        run: cd apps/server && bun run typecheck
+
+      - name: Docker build (verify image builds)
+        run: docker build -t bus-api:ci .
+
+  # ─── CD: deploy only on push to main ─────────────────────────
+  deploy:
+    name: Deploy to Cloud Run
+    needs: ci
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker for Artifact Registry
+        run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev --quiet
+
+      - name: Build Docker image
+        run: |
+          IMAGE_URI="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO }}/${{ env.IMAGE }}"
+          docker build \
+            -t "${IMAGE_URI}:${{ github.sha }}" \
+            -t "${IMAGE_URI}:latest" \
+            .
+
+      - name: Push Docker image
+        run: |
+          IMAGE_URI="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO }}/${{ env.IMAGE }}"
+          docker push "${IMAGE_URI}" --all-tags
+
+      - name: Deploy to Cloud Run
+        uses: google-github-actions/deploy-cloudrun@v2
+        with:
+          service: ${{ env.SERVICE }}
+          region: ${{ env.REGION }}
+          image: ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO }}/${{ env.IMAGE }}:${{ github.sha }}
+          flags: |
+            --port=8080
+            --session-affinity
+            --max-instances=2
+            --memory=512Mi
+            --cpu=1
+            --timeout=3600
+            --allow-unauthenticated
+            --set-env-vars=NODE_ENV=production,${{ secrets.BACKEND_ENV }}
+
+      - name: Show deployed URL
+        run: |
+          echo "Deployed to:"
+          gcloud run services describe ${{ env.SERVICE }} \
+            --region ${{ env.REGION }} \
+            --format='value(status.url)'
