@@ -40,4 +40,5 @@ jobs:
           echo "${{ secrets.BACKEND_ENV }}" | tr ',' '\n' | grep '^DATABASE_URL=' >> "$GITHUB_ENV"
 
       - name: Run migration
+        working-directory: packages/db
         run: bun run ${{ inputs.command || 'db:migrate' }}
