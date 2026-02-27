@@ -73,12 +73,18 @@ jobs:
           IMAGE_URI="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO }}/${{ env.IMAGE }}"
           docker push "${IMAGE_URI}" --all-tags
 
+      - name: Write env vars file
+        run: |
+          echo "NODE_ENV=production" > /tmp/env.yaml
+          echo "${{ secrets.BACKEND_ENV }}" | tr ',' '\n' >> /tmp/env.yaml
+
       - name: Deploy to Cloud Run
         uses: google-github-actions/deploy-cloudrun@v2
         with:
           service: ${{ env.SERVICE }}
           region: ${{ env.REGION }}
           image: ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO }}/${{ env.IMAGE }}:${{ github.sha }}
+          env_vars_file: /tmp/env.yaml
           flags: |
             --port=8080
             --session-affinity
@@ -87,7 +93,6 @@ jobs:
             --cpu=1
             --timeout=3600
             --allow-unauthenticated
-            --set-env-vars=NODE_ENV=production,${{ secrets.BACKEND_ENV }}
 
       - name: Show deployed URL
         run: |
