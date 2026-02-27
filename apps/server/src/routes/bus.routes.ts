@@ -9,7 +9,7 @@ const router = Router();
 
 router.get("/", effectHandler(() => BusService.list()));
 
-router.get("/:id", effectHandler((req) => BusService.getById(req.params.id)));
+router.get("/:id", effectHandler((req) => BusService.getById(req.params.id as string)));
 
 router.post(
   "/",
@@ -24,14 +24,14 @@ router.put(
   authenticate,
   authorize("admin"),
   validate(UpdateBusSchema),
-  effectHandler((req) => BusService.update(req.params.id, req.body))
+  effectHandler((req) => BusService.update(req.params.id as string, req.body))
 );
 
 router.delete(
   "/:id",
   authenticate,
   authorize("admin"),
-  effectHandler((req) => BusService.delete(req.params.id))
+  effectHandler((req) => BusService.delete(req.params.id as string))
 );
 
 export default router;

@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "packages/db/drizzle/**"
+      - ".github/workflows/db-migrate.yml"
   workflow_dispatch:
     inputs:
       command:

@@ -27,7 +27,7 @@ router.put(
   authenticate,
   authorize("admin"),
   validate(UpdateUserSchema),
-  effectHandler((req) => UserService.update(req.params.id, req.body))
+  effectHandler((req) => UserService.update(req.params.id as string, req.body))
 );
 
 export default router;
