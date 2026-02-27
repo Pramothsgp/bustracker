@@ -7,12 +7,13 @@ import {
 } from "../constants";
 
 // ── Auth ──
-export const MagicLinkRequestSchema = z.object({
+export const OtpRequestSchema = z.object({
   email: z.string().email(),
 });
 
-export const MagicLinkVerifySchema = z.object({
-  token: z.string().min(1),
+export const OtpVerifySchema = z.object({
+  email: z.string().email(),
+  code: z.string().regex(/^\d{6}$/, "Code must be exactly 6 digits"),
 });
 
 export const AdminLoginSchema = z.object({

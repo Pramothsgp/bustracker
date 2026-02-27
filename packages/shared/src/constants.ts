@@ -22,7 +22,8 @@ export const LOCATION_UPDATE_INTERVAL_MS = 10_000;
 export const DEMO_SPEED_KMH = 30;
 export const DEMO_TICK_MS = 10_000;
 
-export const MAGIC_LINK_TTL_MINUTES = 15;
+export const OTP_TTL_MINUTES = 15;
+export const OTP_LENGTH = 6;
 export const JWT_DEFAULT_EXPIRY = "7d";
 
 export const REDIS_BUS_TTL_SECONDS = 300; // 5 minutes

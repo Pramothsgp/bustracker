@@ -7,14 +7,14 @@ export default function LoginScreen() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleMagicLink = async () => {
+  const handleRequestOtp = async () => {
     if (!email) return;
     setLoading(true);
     try {
-      await api.post("/auth/magic-link", { email });
+      await api.post("/auth/request-otp", { email });
       router.push({ pathname: "/(auth)/verify", params: { email } });
     } catch (err) {
-      Alert.alert("Error", err instanceof Error ? err.message : "Failed to send magic link");
+      Alert.alert("Error", err instanceof Error ? err.message : "Failed to send OTP");
     } finally {
       setLoading(false);
     }
@@ -42,11 +42,11 @@ export default function LoginScreen() {
 
         <TouchableOpacity
           className="mt-4 rounded-lg bg-blue-600 py-3"
-          onPress={handleMagicLink}
+          onPress={handleRequestOtp}
           disabled={loading}
         >
           <Text className="text-center text-base font-semibold text-white">
-            {loading ? "Sending..." : "Send Magic Link"}
+            {loading ? "Sending..." : "Send OTP"}
           </Text>
         </TouchableOpacity>
       </View>

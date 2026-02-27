@@ -3,20 +3,20 @@ import { effectHandler } from "../lib/effect-handler.js";
 import { validate } from "../middleware/validate.js";
 import { authenticate } from "../middleware/auth.js";
 import { AuthService } from "../services/auth.service.js";
-import { MagicLinkRequestSchema, MagicLinkVerifySchema, AdminLoginSchema } from "@bus/shared";
+import { OtpRequestSchema, OtpVerifySchema, AdminLoginSchema } from "@bus/shared";
 
 const router = Router();
 
 router.post(
-  "/magic-link",
-  validate(MagicLinkRequestSchema),
-  effectHandler((req) => AuthService.requestMagicLink(req.body.email))
+  "/request-otp",
+  validate(OtpRequestSchema),
+  effectHandler((req) => AuthService.requestOtp(req.body.email))
 );
 
 router.post(
-  "/verify",
-  validate(MagicLinkVerifySchema),
-  effectHandler((req) => AuthService.verifyMagicLink(req.body.token))
+  "/verify-otp",
+  validate(OtpVerifySchema),
+  effectHandler((req) => AuthService.verifyOtp(req.body.email, req.body.code))
 );
 
 router.post(

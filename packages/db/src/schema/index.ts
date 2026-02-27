@@ -3,6 +3,6 @@ export { routes } from "./routes";
 export { routeStops } from "./route-stops";
 export { buses } from "./buses";
 export { users } from "./users";
-export { magicLinkTokens } from "./magic-link-tokens";
+export { otpCodes } from "./otp-codes";
 export { trips } from "./trips";
 export { tripLocations } from "./trip-locations";

@@ -6,7 +6,7 @@ const envSchema = z.object({
   REDIS_URL: z.string().default("redis://localhost:6379"),
   JWT_SECRET: z.string().min(8),
   JWT_EXPIRES_IN: z.string().default("7d"),
-  MAGIC_LINK_EXPIRES_MINUTES: z.coerce.number().default(15),
+  OTP_EXPIRES_MINUTES: z.coerce.number().default(15),
   RESEND_API_KEY: z.string().optional(),
   RESEND_FROM_EMAIL: z.string().email().optional(),
   ADMIN_EMAIL: z.string().email().default("admin@bustracker.com"),
