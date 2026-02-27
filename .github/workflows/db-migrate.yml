@@ -3,8 +3,6 @@ name: DB Migration
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
     paths:
       - "packages/db/drizzle/**"
       - ".github/workflows/db-migrate.yml"
