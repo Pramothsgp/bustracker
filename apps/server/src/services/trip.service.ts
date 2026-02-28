@@ -66,8 +66,10 @@ export class TripService {
           })
           .returning();
 
-        // Register in Redis
-        await redis.sadd(`route:${input.routeId}:trips`, trip.id);
+        // Register in Redis (best-effort, don't block trip start)
+        redis.sadd(`route:${input.routeId}:trips`, trip.id).catch((err) =>
+          console.error("Redis sadd failed:", err.message)
+        );
 
         return { ...trip, routeNumber: route.routeNumber, busRegistration: bus.registrationNumber };
       },
@@ -91,10 +93,12 @@ export class TripService {
           .where(eq(trips.id, tripId))
           .returning();
 
-        // Clean up Redis
-        await redis.srem(`route:${trip.routeId}:trips`, tripId);
-        await redis.del(`bus:${tripId}`);
-        await redis.zrem("active_buses", tripId);
+        // Clean up Redis (best-effort, don't block trip end)
+        Promise.all([
+          redis.srem(`route:${trip.routeId}:trips`, tripId),
+          redis.del(`bus:${tripId}`),
+          redis.zrem("active_buses", tripId),
+        ]).catch((err) => console.error("Redis cleanup failed:", err.message));
 
         return updated;
       },
