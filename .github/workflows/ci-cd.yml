@@ -3,8 +3,20 @@ name: CI/CD
 on:
   push:
     branches: [main]
+    paths:
+      - 'apps/server/**'
+      - 'packages/**'
+      - 'Dockerfile'
+      - 'bun.lockb'
+      - '.github/workflows/ci-cd.yml'
   pull_request:
     branches: [main]
+    paths:
+      - 'apps/server/**'
+      - 'packages/**'
+      - 'Dockerfile'
+      - 'bun.lockb'
+      - '.github/workflows/ci-cd.yml'
 
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
