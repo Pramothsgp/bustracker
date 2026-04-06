@@ -4,7 +4,7 @@ import { routes, routeStops, stops } from "@bus/db";
 import { db } from "../lib/db.js";
 import { redis } from "../lib/redis.js";
 import { TrackingService } from "./tracking.service.js";
-import { DEMO_SPEED_KMH, DEMO_TICK_MS, REDIS_BUS_TTL_SECONDS } from "@bus/shared";
+import { DEMO_SPEED_KMH, DEMO_TICK_MS } from "@bus/shared";
 import { haversineDistance } from "../lib/haversine.js";
 import type { Server } from "socket.io";
 
@@ -77,12 +77,19 @@ export class DemoService {
           demoBuses.push(demoBus);
 
           // Register in Redis
-          await redis.sadd(`route:${route.id}:trips`, demoBus.tripId);
+          await redis.sadd(`route:${route.id}:trips`, demoBus.tripId).catch((error) => {
+            console.warn(
+              `DemoService.start: failed to register demo trip ${demoBus.tripId} in redis:`,
+              String(error)
+            );
+          });
         }
 
         // Start simulation ticks
         const interval = setInterval(() => {
-          simulateTick(io);
+          simulateTick(io).catch((error) => {
+            console.warn("DemoService.simulateTick: transient failure:", String(error));
+          });
         }, DEMO_TICK_MS);
         demoIntervals.push(interval);
 
@@ -109,9 +116,9 @@ export class DemoService {
 
         // Clean up Redis
         for (const bus of demoBuses) {
-          await redis.srem(`route:${bus.routeId}:trips`, bus.tripId);
-          await redis.del(`bus:${bus.tripId}`);
-          await redis.zrem("active_buses", bus.tripId);
+          await redis.srem(`route:${bus.routeId}:trips`, bus.tripId).catch(() => {});
+          await redis.del(`bus:${bus.tripId}`).catch(() => {});
+          await redis.zrem("active_buses", bus.tripId).catch(() => {});
         }
 
         demoBuses = [];
@@ -189,7 +196,9 @@ async function simulateTick(io: Server) {
         routeId: bus.routeId,
         routeNumber: bus.routeNumber,
       })
-    );
+    ).catch(() => {
+      // Skip this bus update on transient redis/socket errors; next tick will retry.
+    });
 
     // Broadcast via Socket.IO
     const payload = {

@@ -4,6 +4,10 @@ import "dotenv/config";
 const envSchema = z.object({
   DATABASE_URL: z.string().url(),
   REDIS_URL: z.string().default("redis://localhost:6379"),
+  REDIS_DISABLED: z
+    .enum(["true", "false"])
+    .transform((value) => value === "true")
+    .default("true"),
   JWT_SECRET: z.string().min(8),
   JWT_EXPIRES_IN: z.string().default("7d"),
   OTP_EXPIRES_MINUTES: z.coerce.number().default(15),
