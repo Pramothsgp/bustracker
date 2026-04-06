@@ -8,6 +8,20 @@
       "when": 1772203819350,
       "tag": "0000_heavy_smasher",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1775445807264,
+      "tag": "0001_famous_sandman",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1775449394081,
+      "tag": "0002_strong_warhawk",
+      "breakpoints": true
     }
   ]
 }

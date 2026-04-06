@@ -7,6 +7,7 @@ import type {
   StartTripSchema,
   NearbyBusesSchema,
   PaginationSchema,
+  CreateTicketSchema,
 } from "../schemas/index";
 import type { BusType, BusStatus, UserRole, TripStatus } from "../constants";
 
@@ -17,6 +18,7 @@ export type UpdateUserInput = z.infer<typeof UpdateUserSchema>;
 export type StartTripInput = z.infer<typeof StartTripSchema>;
 export type NearbyBusesInput = z.infer<typeof NearbyBusesSchema>;
 export type PaginationInput = z.infer<typeof PaginationSchema>;
+export type CreateTicketInput = z.infer<typeof CreateTicketSchema>;
 
 export interface Stop {
   id: string;

@@ -13,6 +13,7 @@ import stopRoutes from "./routes/stop.routes.js";
 import userRoutes from "./routes/user.routes.js";
 import tripRoutes from "./routes/trip.routes.js";
 import trackingRoutes from "./routes/tracking.routes.js";
+import ticketRoutes from "./routes/ticket.routes.js";
 import { createDemoRouter } from "./routes/demo.routes.js";
 import healthRoutes from "./routes/health.routes.js";
 
@@ -35,6 +36,7 @@ app.use("/api/v1/routes", routeRoutes);
 app.use("/api/v1/stops", stopRoutes);
 app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/trips", tripRoutes);
+app.use("/api/v1/tickets", ticketRoutes);
 app.use("/api/v1/tracking", trackingRoutes);
 app.use("/api/v1/demo", createDemoRouter(io));
 app.use("/api/v1/health", healthRoutes);

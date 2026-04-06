@@ -5,7 +5,7 @@ let RNMaps: typeof import("react-native-maps") | null = null;
 try {
   RNMaps = require("react-native-maps");
   // Verify the native module is actually available (throws in Expo Go)
-  RNMaps.default;
+  RNMaps && RNMaps.default;
 } catch {
   RNMaps = null;
 }

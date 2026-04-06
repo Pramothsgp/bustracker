@@ -11,7 +11,7 @@ import { SOCKET_EVENTS, COIMBATORE_CENTER } from "@bus/shared";
 import type { ActiveBusPosition } from "@bus/shared";
 
 export default function MapScreen() {
-  const mapRef = useRef<MapView>(null);
+  const mapRef = useRef<any>(null);
   const [buses, setBuses] = useState<Map<string, ActiveBusPosition>>(new Map());
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
 
@@ -93,7 +93,7 @@ export default function MapScreen() {
           showsUserLocation
           onMarkerPress={(id) => {
             const bus = buses.get(id);
-            if (bus) router.push(`/(user)/route/${bus.routeId}`);
+            if (bus) router.push(`/(user)/bus/${bus.busId}`);
           }}
         />
 
@@ -135,7 +135,7 @@ export default function MapScreen() {
             description={bus.speed ? `${bus.speed} km/h` : undefined}
             pinColor="#1d4ed8"
             onCalloutPress={() =>
-              router.push(`/(user)/route/${bus.routeId}`)
+              router.push(`/(user)/bus/${bus.busId}`)
             }
           />
         ))}
