@@ -1,7 +1,7 @@
 import { Effect } from "effect";
-import { eq, sql } from "drizzle-orm";
+import { eq, sql, and } from "drizzle-orm";
 import { createId } from "@paralleldrive/cuid2";
-import { tickets, trips, buses } from "@bus/db";
+import { tickets, trips, buses, routeStops } from "@bus/db";
 import { db } from "../lib/db.js";
 import type { CreateTicketInput } from "@bus/shared";
 
@@ -9,10 +9,37 @@ export class TicketService {
   static create(input: CreateTicketInput, userId: string) {
     return Effect.tryPromise({
       try: async () => {
-        // verify trip is active
+        // verify trip exists and is active
         const [trip] = await db.select().from(trips).where(eq(trips.id, input.tripId));
-        if (!trip || trip.status !== "active") {
-          throw new Error("Conflict: Trip is not active");
+        console.log("TicketService.create checking trip:", input.tripId, trip);
+        if (!trip) {
+          throw new Error("Not found: Trip does not exist");
+        }
+        if (trip.status !== "active") {
+          throw new Error(`Conflict: Trip is currently ${trip.status}, expected active`);
+        }
+
+        let finalPrice = input.price || undefined;
+        let startStopId = input.startStopId || null;
+        let endStopId = input.endStopId || null;
+
+        if (startStopId && endStopId) {
+          const [start] = await db
+            .select()
+            .from(routeStops)
+            .where(and(eq(routeStops.routeId, trip.routeId), eq(routeStops.stopId, startStopId)));
+          const [end] = await db
+            .select()
+            .from(routeStops)
+            .where(and(eq(routeStops.routeId, trip.routeId), eq(routeStops.stopId, endStopId)));
+
+          if (start && end) {
+            const sequenceDiff = Math.abs(end.sequence - start.sequence);
+            // Dynamic pricing: base fare 5 + (sequence difference * 2)
+            const calculatedPrice = 5 + (sequenceDiff * 2);
+            const count = input.passengerCount ?? 1;
+            finalPrice = calculatedPrice * count;
+          }
         }
 
         const [ticket] = await db
@@ -21,7 +48,10 @@ export class TicketService {
             id: createId(),
             tripId: input.tripId,
             passengerCount: input.passengerCount ?? 1,
-            price: input.price,
+            price: finalPrice,
+            startStopId,
+            endStopId,
+            status: "active",
             userId: userId // Optional, track who issued the ticket
           })
           .returning();
@@ -53,7 +83,7 @@ export class TicketService {
         const ticketsList = await db
           .select({ passengerCount: tickets.passengerCount })
           .from(tickets)
-          .where(eq(tickets.tripId, tripId));
+          .where(and(eq(tickets.tripId, tripId), eq(tickets.status, "active")));
         
         const currentPassengers = ticketsList.reduce((acc, t) => acc + (t.passengerCount || 0), 0);
         const capacity = tripResult.busCapacity || 0;
@@ -90,7 +120,7 @@ export class TicketService {
         const ticketsList = await db
           .select({ passengerCount: tickets.passengerCount })
           .from(tickets)
-          .where(eq(tickets.tripId, tripInfo.id));
+          .where(and(eq(tickets.tripId, tripInfo.id), eq(tickets.status, "active")));
         
         const currentPassengers = ticketsList.reduce((acc, t) => acc + (t.passengerCount || 0), 0);
         const capacity = tripInfo.capacity || 0;

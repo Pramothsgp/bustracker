@@ -1,5 +1,5 @@
 import { Effect } from "effect";
-import { eq, and } from "drizzle-orm";
+import { eq, and, sql, or } from "drizzle-orm";
 import { createId } from "@paralleldrive/cuid2";
 import { trips, buses, routes, users } from "@bus/db";
 import { db } from "../lib/db.js";
@@ -28,7 +28,45 @@ export class TripService {
     });
   }
 
-  static start(driverId: string, input: StartTripInput) {
+  static listActive() {
+    return Effect.tryPromise({
+      try: () =>
+        db
+          .select({
+            id: trips.id,
+            busId: trips.busId,
+            routeId: trips.routeId,
+            routeNumber: routes.routeNumber,
+            busRegistration: buses.registrationNumber,
+            startedAt: trips.startedAt,
+          })
+          .from(trips)
+          .innerJoin(routes, eq(trips.routeId, routes.id))
+          .innerJoin(buses, eq(trips.busId, buses.id))
+          .where(eq(trips.status, "active")),
+      catch: (e) => new Error(String(e)),
+    });
+  }
+
+  static getActiveTripForUser(userId: string) {
+    return Effect.tryPromise({
+      try: async () => {
+        const [trip] = await db
+          .select()
+          .from(trips)
+          .where(
+            and(
+              eq(trips.status, "active"),
+              or(eq(trips.driverId, userId), eq(trips.conductorId, userId))
+            )
+          );
+        return trip || null;
+      },
+      catch: (e) => new Error(String(e instanceof Error ? e.message : e)),
+    });
+  }
+
+  static start(userId: string, userRole: string, input: StartTripInput) {
     return Effect.tryPromise({
       try: async () => {
         // Verify bus exists and is active
@@ -45,14 +83,29 @@ export class TripService {
           .where(eq(routes.id, input.routeId));
         if (!route) throw new Error("Not found: Route not found");
 
-        // Check no active trip for this bus
+        // Check active trip for this bus
         const [activeTrip] = await db
           .select()
           .from(trips)
           .where(and(eq(trips.busId, input.busId), eq(trips.status, "active")));
-        if (activeTrip) throw new Error("Conflict: Bus already has an active trip");
 
-        // Create trip
+        if (activeTrip) {
+          const updates: any = {};
+          if (userRole === "driver" && activeTrip.driverId !== userId) {
+            updates.driverId = userId;
+          } else if (userRole === "conductor" && activeTrip.conductorId !== userId) {
+            updates.conductorId = userId;
+          }
+          if (Object.keys(updates).length > 0) {
+            await db.update(trips).set(updates).where(eq(trips.id, activeTrip.id));
+          }
+          return { ...activeTrip, routeNumber: route.routeNumber, busRegistration: bus.registrationNumber };
+        }
+
+        // Create new trip
+        const driverId = userRole === "driver" ? userId : null;
+        const conductorId = userRole === "conductor" ? userId : (input.conductorId || null);
+
         const [trip] = await db
           .insert(trips)
           .values({
@@ -60,7 +113,7 @@ export class TripService {
             busId: input.busId,
             routeId: input.routeId,
             driverId,
-            conductorId: input.conductorId || null,
+            conductorId,
             status: "active",
             startedAt: new Date(),
           })

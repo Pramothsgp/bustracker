@@ -9,6 +9,15 @@ const envSchema = z.object({
   OTP_EXPIRES_MINUTES: z.coerce.number().default(15),
   RESEND_API_KEY: z.string().optional(),
   RESEND_FROM_EMAIL: z.string().email().optional(),
+  SMTP_HOST: z.string().optional(),
+  SMTP_PORT: z.coerce.number().optional(),
+  SMTP_SECURE: z
+    .enum(["true", "false"])
+    .transform((value) => value === "true")
+    .optional(),
+  SMTP_USER: z.string().optional(),
+  SMTP_PASS: z.string().optional(),
+  SMTP_FROM_EMAIL: z.string().email().optional(),
   ADMIN_EMAIL: z.string().email().default("admin@bustracker.com"),
   ADMIN_PASSWORD: z.string().min(6).default("admin123"),
   PORT: z.coerce.number().default(3000),

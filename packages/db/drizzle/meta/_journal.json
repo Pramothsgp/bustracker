@@ -22,6 +22,13 @@
       "when": 1775449394081,
       "tag": "0002_strong_warhawk",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1775450827039,
+      "tag": "0003_lying_squadron_supreme",
+      "breakpoints": true
     }
   ]
 }

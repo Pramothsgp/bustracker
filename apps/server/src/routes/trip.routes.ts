@@ -9,18 +9,32 @@ const router = Router();
 
 router.get("/", effectHandler(() => TripService.list()));
 
+router.get(
+  "/active",
+  authenticate,
+  authorize("driver", "conductor"),
+  effectHandler((req) => TripService.getActiveTripForUser(req.user!.userId))
+);
+
+router.get(
+  "/all-active",
+  authenticate,
+  authorize("conductor"),
+  effectHandler(() => TripService.listActive())
+);
+
 router.post(
   "/start",
   authenticate,
-  authorize("driver"),
+  authorize("driver", "conductor"),
   validate(StartTripSchema),
-  effectHandler((req) => TripService.start(req.user!.userId, req.body))
+  effectHandler((req) => TripService.start(req.user!.userId, req.user!.role, req.body))
 );
 
 router.post(
   "/:id/end",
   authenticate,
-  authorize("driver"),
+  authorize("driver", "conductor"),
   effectHandler((req) => TripService.end(req.params.id as string, req.user!.userId))
 );
 

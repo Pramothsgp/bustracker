@@ -22,7 +22,6 @@ export const trips = pgTable(
       .notNull()
       .references(() => routes.id, { onDelete: "cascade" }),
     driverId: text("driver_id")
-      .notNull()
       .references(() => users.id, { onDelete: "cascade" }),
     conductorId: text("conductor_id").references(() => users.id),
     status: text("status", {

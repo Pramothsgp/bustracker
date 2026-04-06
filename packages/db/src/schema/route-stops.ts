@@ -17,5 +17,5 @@ export const routeStops = pgTable(
     primaryKey({ columns: [table.routeId, table.stopId] }),
     index("route_stops_route_idx").on(table.routeId),
     index("route_stops_stop_idx").on(table.stopId),
-  ]
+  ],
 );

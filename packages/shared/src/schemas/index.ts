@@ -79,4 +79,6 @@ export const CreateTicketSchema = z.object({
   tripId: z.string().min(1),
   passengerCount: z.number().int().positive().default(1),
   price: z.number().int().positive().optional(),
+  startStopId: z.string().optional(),
+  endStopId: z.string().optional(),
 });

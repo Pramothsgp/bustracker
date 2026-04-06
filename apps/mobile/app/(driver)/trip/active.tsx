@@ -15,9 +15,6 @@ export default function ActiveTripScreen() {
   const [location, setLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [elapsed, setElapsed] = useState(0);
   const [ending, setEnding] = useState(false);
-  const [passengersToBoard, setPassengersToBoard] = useState(1);
-  const [addingTicket, setAddingTicket] = useState(false);
-  const [currentPassengers, setCurrentPassengers] = useState(0);
   const socketRef = useRef(getTrackingSocket());
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -36,22 +33,8 @@ export default function ActiveTripScreen() {
     intervalRef.current = setInterval(() => {
       setElapsed((prev) => prev + 1);
     }, 1000);
-
-    // Initial Passenger fetch & poll
-    const fetchPassengers = async () => {
-      try {
-        const data = await api.get<{ currentPassengers: number }>(`/tickets/trip/${tripId}/passengers`);
-        setCurrentPassengers(data.currentPassengers);
-      } catch (error) {
-        console.error("Fetch passenger error", error);
-      }
-    };
-    fetchPassengers();
-    const pcInterval = setInterval(fetchPassengers, 10000);
-
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
-      clearInterval(pcInterval);
       socket.disconnect();
     };
   }, [tripId]);
@@ -102,20 +85,6 @@ export default function ActiveTripScreen() {
         },
       },
     ]);
-  };
-
-  const handleAddTicket = async () => {
-    setAddingTicket(true);
-    try {
-      await api.post('/tickets', { tripId, passengerCount: passengersToBoard });
-      setPassengersToBoard(1);
-      const data = await api.get<{ currentPassengers: number }>(`/tickets/trip/${tripId}/passengers`);
-      setCurrentPassengers(data.currentPassengers);
-    } catch (err) {
-      Alert.alert("Error", err instanceof Error ? err.message : "Failed to add ticket");
-    } finally {
-      setAddingTicket(false);
-    }
   };
 
   const formatTime = (secs: number) => {
@@ -180,27 +149,6 @@ export default function ActiveTripScreen() {
           <View className="items-center rounded-full bg-green-100 px-4 py-2">
             <View className="h-3 w-3 rounded-full bg-green-500" />
             <Text className="mt-1 text-xs font-medium text-green-700">LIVE</Text>
-          </View>
-        </View>
-
-        <View className="mb-4 flex-row items-center justify-between rounded-xl bg-blue-50 p-4">
-          <View>
-            <Text className="text-sm font-medium text-blue-900">Current Passengers</Text>
-            <Text className="text-3xl font-bold text-blue-700">{currentPassengers}</Text>
-          </View>
-          <View className="items-end">
-            <View className="flex-row items-center mb-2 gap-4">
-              <TouchableOpacity onPress={() => setPassengersToBoard(Math.max(1, passengersToBoard - 1))} className="bg-blue-200 px-3 py-1 rounded">
-                <Text className="text-lg font-bold text-blue-900">-</Text>
-              </TouchableOpacity>
-              <Text className="text-lg font-bold min-w-[20px] text-center">{passengersToBoard}</Text>
-              <TouchableOpacity onPress={() => setPassengersToBoard(passengersToBoard + 1)} className="bg-blue-200 px-3 py-1 rounded">
-                <Text className="text-lg font-bold text-blue-900">+</Text>
-              </TouchableOpacity>
-            </View>
-            <TouchableOpacity onPress={handleAddTicket} disabled={addingTicket} className="bg-blue-600 px-4 py-2 rounded-lg">
-              <Text className="text-white font-medium text-sm">{addingTicket ? "Adding..." : "Add Ticket"}</Text>
-            </TouchableOpacity>
           </View>
         </View>
 

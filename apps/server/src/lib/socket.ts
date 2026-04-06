@@ -3,6 +3,7 @@ import { Server } from "socket.io";
 import { Effect } from "effect";
 import { verifyToken } from "./jwt.js";
 import { TrackingService } from "../services/tracking.service.js";
+import { StopProcessorService } from "../services/stop-processor.service.js";
 import { tripLocations, trips, buses, routes } from "@bus/db";
 import { db } from "./db.js";
 import { eq, and } from "drizzle-orm";
@@ -98,6 +99,9 @@ export function createSocketServer(httpServer: HttpServer) {
             routeNumber: route?.routeNumber || "",
           })
         );
+
+        // Evaluate dynamic stop drop-offs matching our active transit tickets
+        StopProcessorService.checkLocationDropoffs(data.tripId, data.lat, data.lng).catch(console.error);
 
         // Broadcast to route subscribers
         const payload = {
