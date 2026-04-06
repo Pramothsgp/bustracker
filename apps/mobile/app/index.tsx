@@ -1,7 +1,7 @@
-import { useEffect } from "react";
-import { router } from "expo-router";
-import { useAuth } from "@/lib/auth-context";
-import { View, ActivityIndicator } from "react-native";
+import { useEffect } from 'react';
+import { router } from 'expo-router';
+import { useAuth } from '@/lib/auth-context';
+import { View, ActivityIndicator } from 'react-native';
 
 export default function Index() {
   const { user, loading } = useAuth();
@@ -9,10 +9,12 @@ export default function Index() {
   useEffect(() => {
     if (loading) return;
 
-    if (user?.role === "driver") {
-      router.replace("/(driver)/dashboard");
+    if (user?.role === 'conductor') {
+      router.replace('/(conductor)/dashboard');
+    } else if (user?.role === 'driver') {
+      router.replace('/(driver)/dashboard');
     } else {
-      router.replace("/(user)/(tabs)/map");
+      router.replace('/(user)/(tabs)/map');
     }
   }, [user, loading]);
 

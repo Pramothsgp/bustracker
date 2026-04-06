@@ -1,10 +1,36 @@
-import { View, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity, ActivityIndicator } from "react-native";
 import { router } from "expo-router";
 import { useAuth } from "@/lib/auth-context";
 import { Ionicons } from "@expo/vector-icons";
+import { useState, useEffect } from "react";
+import { api } from "@/lib/api";
+
+type ActiveTrip = {
+  id: string;
+  routeId: string;
+  busId: string;
+} | null;
 
 export default function DriverDashboard() {
   const { user, logout } = useAuth();
+  const [activeTrip, setActiveTrip] = useState<ActiveTrip>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchActiveTrip();
+  }, []);
+
+  const fetchActiveTrip = async () => {
+    try {
+      setLoading(true);
+      const data = await api.get<ActiveTrip>("/trips/active");
+      setActiveTrip(data);
+    } catch (err) {
+      console.log("No active trip found");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const handleLogout = async () => {
     await logout();
@@ -21,16 +47,40 @@ export default function DriverDashboard() {
         <Text className="text-sm text-gray-500">{user?.email}</Text>
       </View>
 
-      <TouchableOpacity
-        className="mb-4 flex-row items-center rounded-xl bg-blue-600 p-5"
-        onPress={() => router.push("/(driver)/trip/start")}
-      >
-        <Ionicons name="play-circle" size={32} color="white" />
-        <View className="ml-4">
-          <Text className="text-lg font-semibold text-white">Start Trip</Text>
-          <Text className="text-sm text-blue-200">Begin tracking your route</Text>
-        </View>
-      </TouchableOpacity>
+      {loading ? (
+        <ActivityIndicator size="large" color="#1d4ed8" className="mb-4" />
+      ) : activeTrip ? (
+        <TouchableOpacity
+          className="mb-4 flex-row items-center rounded-xl bg-green-600 p-5"
+          onPress={() =>
+            router.push({
+              pathname: "/(driver)/trip/active",
+              params: {
+                tripId: activeTrip.id,
+                routeId: activeTrip.routeId,
+                busId: activeTrip.busId,
+              },
+            })
+          }
+        >
+          <Ionicons name="refresh-circle" size={32} color="white" />
+          <View className="ml-4">
+            <Text className="text-lg font-semibold text-white">Resume Trip</Text>
+            <Text className="text-sm text-green-200">Re-enter your active session</Text>
+          </View>
+        </TouchableOpacity>
+      ) : (
+        <TouchableOpacity
+          className="mb-4 flex-row items-center rounded-xl bg-blue-600 p-5"
+          onPress={() => router.push("/(driver)/trip/start")}
+        >
+          <Ionicons name="play-circle" size={32} color="white" />
+          <View className="ml-4">
+            <Text className="text-lg font-semibold text-white">Start Trip</Text>
+            <Text className="text-sm text-blue-200">Begin tracking your route</Text>
+          </View>
+        </TouchableOpacity>
+      )}
 
       <TouchableOpacity
         className="mb-4 flex-row items-center rounded-xl border border-gray-200 p-5"
