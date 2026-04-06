@@ -3,8 +3,9 @@ import {
   text,
   timestamp,
   index,
-  unique,
+  uniqueIndex,
 } from "drizzle-orm/pg-core";
+import { sql } from "drizzle-orm";
 import { createId } from "@paralleldrive/cuid2";
 import { buses } from "./buses";
 import { routes } from "./routes";
@@ -41,6 +42,8 @@ export const trips = pgTable(
     index("trips_driver_idx").on(table.driverId),
     index("trips_status_idx").on(table.status),
     // Only one active trip per bus at a time
-    unique("trips_active_bus_unique").on(table.busId).nullsNotDistinct(),
+    uniqueIndex("trips_active_bus_unique")
+      .on(table.busId)
+      .where(sql`${table.status} = 'active'`),
   ]
 );

@@ -6,7 +6,7 @@ import { SOCKET_EVENTS } from "@bus/shared";
 const BACKGROUND_LOCATION_TASK = "background-location-task";
 
 // Must be defined at module top-level (Expo requirement)
-TaskManager.defineTask(BACKGROUND_LOCATION_TASK, ({ data, error }) => {
+TaskManager.defineTask(BACKGROUND_LOCATION_TASK, async ({ data, error }) => {
   if (error) {
     console.error("[BG Location] Error:", error);
     return;

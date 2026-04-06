@@ -6,3 +6,4 @@ export { users } from "./users";
 export { otpCodes } from "./otp-codes";
 export { trips } from "./trips";
 export { tripLocations } from "./trip-locations";
+export { tickets } from "./tickets";

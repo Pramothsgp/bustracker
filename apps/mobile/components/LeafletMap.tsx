@@ -66,8 +66,8 @@ const LEAFLET_HTML = `
 
     function init(lat, lng, zoom) {
       map = L.map('map', { zoomControl: false }).setView([lat, lng], zoom || 13);
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OSM',
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '© OSM, Carto',
         maxZoom: 19
       }).addTo(map);
       L.control.zoom({ position: 'topright' }).addTo(map);
@@ -241,6 +241,7 @@ const LeafletMap = React.forwardRef<LeafletMapRef, LeafletMapProps>(
           overScrollMode="never"
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
+          userAgent="BusTrackerApp/1.0"
         />
       </View>
     );

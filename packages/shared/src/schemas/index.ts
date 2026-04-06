@@ -73,3 +73,10 @@ export const PaginationSchema = z.object({
   page: z.coerce.number().int().positive().default(1),
   limit: z.coerce.number().int().positive().max(100).default(20),
 });
+
+// ── Tickets ──
+export const CreateTicketSchema = z.object({
+  tripId: z.string().min(1),
+  passengerCount: z.number().int().positive().default(1),
+  price: z.number().int().positive().optional(),
+});
